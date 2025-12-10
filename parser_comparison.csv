@@ -1,0 +1,11 @@
+address_index,rule-based_local_success,rule-based_local_unit_number,rule-based_local_society_name,rule-based_local_landmark,rule-based_local_road,rule-based_local_sub_locality,rule-based_local_locality,rule-based_local_city,rule-based_local_district,rule-based_local_state,rule-based_local_pin_code,indicbert_success,indicbert_unit_number,indicbert_society_name,indicbert_landmark,indicbert_road,indicbert_sub_locality,indicbert_locality,indicbert_city,indicbert_district,indicbert_state,indicbert_pin_code
+1,True,301,Kumar Paradise,,,,Kalyani Nagar,Pune,Pune,Maharashtra,411006,False,,,,,,,,,,
+2,True,A-204,Amanora Park Town,,,,Hadapsar,Pune,Pune,,411028,False,,,,,,,,,,
+3,True,12,Koregaon Park,Osho Ashram,,,Near Osho Ashram,Pune,Pune,,411001,False,,,,,,,,,,
+4,True,505,Cerebrum IT Park,,Kumar Road,,Kumar Road,Pune,Pune,Maharashtra,411001,False,,,,,,,,,,
+5,True,201,Magarpatta City,,,,Hadapsar,Pune,Pune,,411013,False,,,,,,,,,,
+6,True,102,Seasons Apartment,,Baner Road,,Baner,Pune,Pune,,411045,False,,,,,,,,,,
+7,True,B-Wing 404,Pride Purple Park,,,,Wakad,Pune,Pune,Maharashtra,411057,False,,,,,,,,,,
+8,True,7,Amanora Neo Towers,Phoenix Mall,,,Near Phoenix Mall,Pune,Pune,,411028,False,,,,,,,,,,
+9,True,12,FC Road,,FC Road,,Shivajinagar,Pune,Pune,,411004,False,,,,,,,,,,
+10,True,3rd Floor,Panchshil Tech Park,,,,Yerwada,Pune,Pune,Maharashtra,411006,False,,,,,,,,,,
