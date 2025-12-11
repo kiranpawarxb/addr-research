@@ -1,0 +1,28 @@
+cpu:
+  allocation_ratio: 0.02
+  batch_size: 50
+  worker_count: 2
+gpu:
+  batch_size: 400
+  dataset_batch_size: 1000
+  device_id: 0
+  enable_compilation: true
+  enable_cudnn_benchmark: true
+  enable_monitoring: true
+  enable_tensor_float32: true
+  memory_fraction: 0.95
+  monitoring_interval: 5
+  num_streams: 2
+  queue_size: 10
+  use_half_precision: true
+logging:
+  enable_performance: true
+  file_path: null
+  level: INFO
+performance:
+  gpu_utilization_threshold: 0.9
+  log_interval: 10
+  target_throughput: 2000
+system:
+  cpu_core_limit: null
+  max_memory_gb: 16.0

@@ -1,0 +1,564 @@
+#!/usr/bin/env python3
+"""
+Simple GPU Maximizer for P5-P31 files:
+- NVIDIA GPU: 85% of work (maximum safe utilization)
+- Intel GPU: 2% of work (minimal test load)  
+- CPU cores: 13% of work (minimal backup)
+- Larger batch sizes and optimized GPU settings
+- Real-time GPU utilization monitoring
+"""
+
+import sys
+import os
+import pandas as pd
+import logging
+import time
+import multiprocessing
+import glob
+from datetime import datetime
+from typing import List, Dict, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
+
+# Add src to path
+sys.path.insert(0, 'src')
+
+from src.ultimate_multi_device_parser import UltimateMultiDeviceParser
+from src.models import ParsedAddress
+
+
+class SimpleGPUMaximizer(UltimateMultiDeviceParser):
+    """Simple GPU maximizer with focus on NVIDIA utilization."""
+    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.progress_lock = threading.Lock()
+        self.completed_addresses = 0
+        self.start_time = None
+        self.progress_thread = None
+        self.stop_progress = False
+        self.current_file = ""
+        
+        # GPU optimization settings
+        self.nvidia_batch_size = 180  # Larger batches for GPU
+    
+    def _setup_nvidia_gpu_simple(self):
+        """Set up NVIDIA GPU with simple optimization."""
+        if not self.use_nvidia_gpu:
+            return False
+        
+        try:
+            import torch
+            from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
+            
+            if not torch.cuda.is_available():
+                logging.warning("NVIDIA CUDA not available")
+                return False
+            
+            logging.info("🔧 Setting up SIMPLE NVIDIA GPU optimization...")
+            
+            # Simple GPU optimizations
+            torch.backends.cudnn.benchmark = True
+            
+            # Load model on GPU with simple settings
+            tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+            model = AutoModelForTokenClassification.from_pretrained(
+                self.model_name,
+                torch_dtype=torch.float16  # Half precision for speed
+            ).cuda()
+            
+            # Optimize model for inference
+            model.eval()
+            
+            # Create single optimized pipeline
+            self._nvidia_pipeline = pipeline(
+                "ner",
+                model=model,
+                tokenizer=tokenizer,
+                device=0,  # CUDA device 0
+                aggregation_strategy="simple",
+                batch_size=self.nvidia_batch_size
+            )
+            
+            # Get GPU info
+            gpu_name = torch.cuda.get_device_name(0)
+            gpu_memory = torch.cuda.get_device_properties(0).total_memory / 1e9
+            
+            logging.info(f"✅ NVIDIA GPU setup complete:")
+            logging.info(f"   GPU: {gpu_name}")
+            logging.info(f"   Memory: {gpu_memory:.1f} GB")
+            logging.info(f"   Batch size: {self.nvidia_batch_size}")
+            return True
+            
+        except Exception as e:
+            logging.error(f"Failed to setup simple NVIDIA GPU: {e}")
+            return False
+    
+    def _get_gpu_utilization(self):
+        """Get current GPU utilization percentage."""
+        try:
+            import subprocess
+            result = subprocess.run([
+                'nvidia-smi', 
+                '--query-gpu=utilization.gpu',
+                '--format=csv,noheader,nounits'
+            ], capture_output=True, text=True, timeout=5)
+            
+            if result.returncode == 0:
+                util = float(result.stdout.strip())
+                return util
+        except:
+            pass
+        return 0.0
+    
+    def start_progress_logging(self, total_addresses, file_name):
+        """Start background progress logging with GPU monitoring."""
+        self.start_time = time.time()
+        self.total_addresses = total_addresses
+        self.current_file = file_name
+        self.stop_progress = False
+        
+        def log_progress():
+            while not self.stop_progress:
+                time.sleep(30)  # Log every 30 seconds
+                if not self.stop_progress:
+                    with self.progress_lock:
+                        elapsed = time.time() - self.start_time
+                        rate = self.completed_addresses / elapsed if elapsed > 0 else 0
+                        remaining = self.total_addresses - self.completed_addresses
+                        eta = remaining / rate if rate > 0 else 0
+                        
+                        # Get GPU utilization
+                        gpu_util = self._get_gpu_utilization()
+                        
+                        logging.info(f"📊 PROGRESS [{self.current_file}]: {self.completed_addresses:,}/{self.total_addresses:,} "
+                                   f"({self.completed_addresses/self.total_addresses*100:.1f}%) | "
+                                   f"Rate: {rate:.1f}/sec | ETA: {eta/60:.1f} min | GPU: {gpu_util:.1f}%")
+        
+        self.progress_thread = threading.Thread(target=log_progress, daemon=True)
+        self.progress_thread.start()
+    
+    def stop_progress_logging(self):
+        """Stop background progress logging."""
+        self.stop_progress = True
+        if self.progress_thread:
+            self.progress_thread.join(timeout=1)
+    
+    def update_progress(self, count):
+        """Update progress counter."""
+        with self.progress_lock:
+            self.completed_addresses += count
+    
+    def reset_progress(self):
+        """Reset progress for new file."""
+        with self.progress_lock:
+            self.completed_addresses = 0
+    
+    def process_single_file_gpu_max(self, file_path: str) -> Dict:
+        """Process a single P file with GPU maximization."""
+        file_name = os.path.basename(file_path)
+        logging.info(f"🚀 Starting GPU-maximized processing: {file_name}")
+        
+        # Load addresses from file
+        addresses = self.load_addresses_from_file(file_path)
+        if not addresses:
+            logging.error(f"❌ No addresses loaded from {file_name}")
+            return None
+        
+        total_addresses = len(addresses)
+        logging.info(f"📊 {file_name}: {total_addresses:,} addresses to process")
+        
+        # Reset and start progress logging
+        self.reset_progress()
+        self.start_progress_logging(total_addresses, file_name)
+        
+        # Initialize devices with simple GPU optimization
+        available_devices = []
+        
+        # Setup simple NVIDIA GPU
+        if self._setup_nvidia_gpu_simple():
+            available_devices.append("NVIDIA_GPU_MAX")
+            if "nvidia_gpu" not in self._device_stats:
+                self._device_stats["nvidia_gpu"] = {"processed": 0, "time": 0}
+        
+        # Setup Intel GPU (minimal)
+        if self._setup_intel_openvino():
+            available_devices.append("INTEL_GPU")
+            if "intel_openvino" not in self._device_stats:
+                self._device_stats["intel_openvino"] = {"processed": 0, "time": 0}
+        
+        # Setup CPU cores (minimal)
+        if self._setup_all_cpu_cores():
+            available_devices.append("ALL_CPU_CORES")
+            if "all_cpu_cores" not in self._device_stats:
+                self._device_stats["all_cpu_cores"] = {"processed": 0, "time": 0}
+        
+        if not available_devices:
+            logging.error(f"❌ No processing devices available for {file_name}")
+            return None
+        
+        # GPU-maximized work distribution (85% NVIDIA + 2% Intel + 13% CPU)
+        nvidia_chunk_size = int(total_addresses * 0.85)
+        intel_chunk_size = int(total_addresses * 0.02)
+        cpu_total_chunk_size = total_addresses - nvidia_chunk_size - intel_chunk_size
+        
+        logging.info(f"🎯 GPU-MAXIMIZED work distribution for {file_name}:")
+        logging.info(f"   NVIDIA RTX 4070: {nvidia_chunk_size:,} addresses (85% - MAXIMUM)")
+        logging.info(f"   Intel GPU: {intel_chunk_size:,} addresses (2%)")
+        logging.info(f"   CPU cores: {cpu_total_chunk_size:,} addresses (13%)")
+        
+        # Process with GPU maximization
+        results = [None] * total_addresses
+        futures = []
+        current_idx = 0
+        
+        file_start_time = time.time()
+        
+        with ThreadPoolExecutor(max_workers=8) as executor:  # Fewer workers to focus on GPU
+            
+            # Submit NVIDIA GPU work (maximum load)
+            if nvidia_chunk_size > 0 and "NVIDIA_GPU_MAX" in available_devices:
+                nvidia_chunk = addresses[current_idx:current_idx + nvidia_chunk_size]
+                nvidia_future = executor.submit(self._process_chunk_nvidia_max, nvidia_chunk)
+                futures.append((nvidia_future, current_idx, current_idx + nvidia_chunk_size, "NVIDIA_GPU_MAX"))
+                current_idx += nvidia_chunk_size
+            
+            # Submit Intel GPU work (minimal)
+            if intel_chunk_size > 0 and "INTEL_GPU" in available_devices:
+                intel_chunk = addresses[current_idx:current_idx + intel_chunk_size]
+                intel_future = executor.submit(self._process_chunk_intel_minimal, intel_chunk)
+                futures.append((intel_future, current_idx, current_idx + intel_chunk_size, "INTEL_GPU"))
+                current_idx += intel_chunk_size
+            
+            # Submit CPU work (minimal)
+            if cpu_total_chunk_size > 0 and "ALL_CPU_CORES" in available_devices:
+                cpu_chunk = addresses[current_idx:]
+                cpu_future = executor.submit(self._process_chunk_cpu_minimal, cpu_chunk)
+                futures.append((cpu_future, current_idx, len(addresses), "CPU_MINIMAL"))
+            
+            # Collect results
+            for future, start_idx, end_idx, device_name in futures:
+                try:
+                    # Optimized timeouts
+                    if "NVIDIA" in device_name:
+                        timeout = 14400  # 4 hours for heavy GPU load
+                    elif "INTEL" in device_name:
+                        timeout = 1800  # 30 minutes
+                    else:
+                        timeout = 3600  # 1 hour for CPU
+                    
+                    chunk_results = future.result(timeout=timeout)
+                    results[start_idx:end_idx] = chunk_results
+                    
+                    chunk_size = end_idx - start_idx
+                    logging.info(f"✅ {device_name} completed: {chunk_size:,} addresses")
+                    
+                except Exception as e:
+                    logging.error(f"❌ {device_name} failed: {e}")
+                    # Fill with failed results
+                    for j in range(start_idx, end_idx):
+                        results[j] = ParsedAddress(
+                            parse_success=False,
+                            parse_error=f"{device_name} error: {str(e)}"
+                        )
+        
+        # Stop progress logging
+        self.stop_progress_logging()
+        
+        # Calculate results
+        total_time = time.time() - file_start_time
+        success_count = sum(1 for r in results if r and r.parse_success)
+        addresses_per_second = total_addresses / total_time
+        
+        # Save results
+        output_file = self.save_results(file_name, addresses, results)
+        
+        # Final GPU utilization
+        final_gpu_util = self._get_gpu_utilization()
+        
+        logging.info(f"🎉 {file_name} GPU-MAXIMIZED processing completed!")
+        logging.info(f"📊 Results: {success_count:,}/{total_addresses:,} success ({success_count/total_addresses*100:.1f}%)")
+        logging.info(f"⏱️ Time: {total_time:.1f}s ({total_time/60:.1f} min)")
+        logging.info(f"🚀 Speed: {addresses_per_second:.1f} addresses/second")
+        logging.info(f"🎯 Final GPU Utilization: {final_gpu_util:.1f}%")
+        
+        return {
+            'file_name': file_name,
+            'total_addresses': total_addresses,
+            'success_count': success_count,
+            'total_time': total_time,
+            'addresses_per_second': addresses_per_second,
+            'output_file': output_file,
+            'gpu_utilization': final_gpu_util
+        }
+    
+    def _process_chunk_nvidia_max(self, addresses: List[str]) -> List[ParsedAddress]:
+        """Process chunk on NVIDIA GPU with maximum utilization."""
+        logging.info(f"🟢 NVIDIA GPU starting: {len(addresses):,} addresses (85% GPU MAXIMUM)")
+        start_time = time.time()
+        
+        results = []
+        
+        try:
+            # Process in large batches for maximum GPU utilization
+            for i in range(0, len(addresses), self.nvidia_batch_size):
+                batch = addresses[i:i + self.nvidia_batch_size]
+                
+                # Clean addresses
+                batch_texts = [self._clean_address_text(addr) for addr in batch]
+                
+                # Process batch on GPU
+                entities_batch = self._nvidia_pipeline(batch_texts)
+                
+                # Extract results
+                for j, (addr, entities) in enumerate(zip(batch, entities_batch)):
+                    parsed = self._extract_fields_from_ner(batch_texts[j], entities)
+                    parsed.parse_success = True
+                    results.append(parsed)
+                
+                self.update_progress(len(batch))
+                
+                # Log progress every 8 batches
+                if (i // self.nvidia_batch_size) % 8 == 0:
+                    elapsed = time.time() - start_time
+                    rate = len(results) / elapsed if elapsed > 0 else 0
+                    progress_pct = (len(results) / len(addresses)) * 100
+                    gpu_util = self._get_gpu_utilization()
+                    logging.info(f"🟢 NVIDIA progress: {len(results):,}/{len(addresses):,} "
+                               f"({progress_pct:.1f}%) | Rate: {rate:.1f}/sec | GPU: {gpu_util:.1f}%")
+                
+        except Exception as e:
+            logging.error(f"NVIDIA GPU error: {e}")
+            for addr in addresses:
+                results.append(ParsedAddress(
+                    parse_success=False,
+                    parse_error=f"NVIDIA GPU error: {str(e)}"
+                ))
+        
+        processing_time = time.time() - start_time
+        self._device_stats["nvidia_gpu"]["processed"] += len(addresses)
+        self._device_stats["nvidia_gpu"]["time"] += processing_time
+        
+        final_rate = len(addresses) / processing_time if processing_time > 0 else 0
+        final_gpu_util = self._get_gpu_utilization()
+        logging.info(f"✅ NVIDIA GPU completed: {len(addresses):,} addresses in {processing_time:.1f}s "
+                    f"({final_rate:.1f}/sec) | Final GPU: {final_gpu_util:.1f}%")
+        return results
+    
+    def _process_chunk_intel_minimal(self, addresses: List[str]) -> List[ParsedAddress]:
+        """Process chunk on Intel GPU (minimal load)."""
+        logging.info(f"🔵 Intel GPU starting: {len(addresses):,} addresses (2% minimal)")
+        start_time = time.time()
+        
+        results = []
+        batch_size = 15
+        
+        for i in range(0, len(addresses), batch_size):
+            batch = addresses[i:i + batch_size]
+            batch_results = self._process_on_intel(batch)
+            results.extend(batch_results)
+            self.update_progress(len(batch))
+        
+        processing_time = time.time() - start_time
+        self._device_stats["intel_openvino"]["processed"] += len(addresses)
+        self._device_stats["intel_openvino"]["time"] += processing_time
+        
+        final_rate = len(addresses) / processing_time if processing_time > 0 else 0
+        logging.info(f"✅ Intel GPU completed: {len(addresses):,} addresses in {processing_time:.1f}s ({final_rate:.1f}/sec)")
+        return results
+    
+    def _process_chunk_cpu_minimal(self, addresses: List[str]) -> List[ParsedAddress]:
+        """Process chunk on CPU (minimal load)."""
+        logging.info(f"🔵 CPU starting: {len(addresses):,} addresses (13% minimal)")
+        start_time = time.time()
+        
+        results = []
+        batch_size = 25
+        
+        for i in range(0, len(addresses), batch_size):
+            batch = addresses[i:i + batch_size]
+            batch_results = self._process_on_cpu_core(batch, 0)
+            results.extend(batch_results)
+            self.update_progress(len(batch))
+        
+        processing_time = time.time() - start_time
+        final_rate = len(addresses) / processing_time if processing_time > 0 else 0
+        logging.info(f"✅ CPU completed: {len(addresses):,} addresses in {processing_time:.1f}s ({final_rate:.1f}/sec)")
+        return results
+    
+    def load_addresses_from_file(self, file_path: str) -> List[str]:
+        """Load addresses from a CSV file."""
+        try:
+            df = pd.read_csv(file_path, low_memory=False)  # Avoid dtype warnings
+            
+            # Find address column
+            address_column = None
+            for col in ['addr_text', 'address', 'full_address', 'Address', 'addr']:
+                if col in df.columns:
+                    address_column = col
+                    break
+            
+            if not address_column:
+                logging.error(f"No address column found in {file_path}")
+                return []
+            
+            # Filter out empty addresses
+            df_clean = df.dropna(subset=[address_column])
+            df_clean = df_clean[df_clean[address_column].str.strip() != '']
+            
+            return df_clean[address_column].tolist()
+            
+        except Exception as e:
+            logging.error(f"Error loading {file_path}: {e}")
+            return []
+    
+    def save_results(self, file_name: str, addresses: List[str], results: List[ParsedAddress]) -> str:
+        """Save processing results to CSV."""
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        base_name = file_name.replace('.csv', '')
+        output_file = f'{base_name}_gpu_max_{timestamp}.csv'
+        
+        results_data = []
+        for i, (original_addr, parsed) in enumerate(zip(addresses, results)):
+            results_data.append({
+                'id': i + 1,
+                'original_address': original_addr,
+                'unit_number': parsed.unit_number if parsed.parse_success else '',
+                'society_name': parsed.society_name if parsed.parse_success else '',
+                'landmark': parsed.landmark if parsed.parse_success else '',
+                'road': parsed.road if parsed.parse_success else '',
+                'sub_locality': parsed.sub_locality if parsed.parse_success else '',
+                'locality': parsed.locality if parsed.parse_success else '',
+                'city': parsed.city if parsed.parse_success else '',
+                'district': parsed.district if parsed.parse_success else '',
+                'state': parsed.state if parsed.parse_success else '',
+                'country': parsed.country if parsed.parse_success else '',
+                'pin_code': parsed.pin_code if parsed.parse_success else '',
+                'parse_success': parsed.parse_success,
+                'parse_error': parsed.parse_error if not parsed.parse_success else '',
+                'note': parsed.note if parsed.parse_success else ''
+            })
+        
+        results_df = pd.DataFrame(results_data)
+        results_df.to_csv(output_file, index=False)
+        
+        return output_file
+
+
+def setup_logging():
+    """Set up comprehensive logging for GPU-maximized processing."""
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.StreamHandler(),
+            logging.FileHandler(f'gpu_max_batch_{timestamp}.log', encoding='utf-8')
+        ]
+    )
+
+
+def get_files_to_process(start_num: int = 5, end_num: int = 31) -> List[str]:
+    """Get list of P files to process."""
+    files = []
+    for i in range(start_num, end_num + 1):
+        file_pattern = f'export_customer_address_store_p{i}.csv'
+        matching_files = glob.glob(file_pattern)
+        if matching_files:
+            files.extend(matching_files)
+        else:
+            logging.warning(f"File not found: {file_pattern}")
+    
+    return sorted(files)
+
+
+def main():
+    """Main GPU-maximized batch processing function."""
+    
+    setup_logging()
+    
+    print("🚀 SIMPLE GPU MAXIMIZER FOR P5-P31 FILES")
+    print("Configuration: NVIDIA RTX 4070 (85% MAX) + Intel GPU (2%) + CPU (13%)")
+    print("=" * 80)
+    
+    # Get files to process
+    files_to_process = get_files_to_process(5, 31)
+    
+    if not files_to_process:
+        print("❌ No files found to process!")
+        return
+    
+    print(f"📂 Found {len(files_to_process)} files to process")
+    print()
+    
+    # Initialize GPU-maximized processor
+    processor = SimpleGPUMaximizer(
+        batch_size=180,  # Large batches for GPU
+        use_nvidia_gpu=True,
+        use_intel_gpu=True,
+        use_all_cpu_cores=True,
+        cpu_core_multiplier=0.25  # Minimal CPU usage
+    )
+    
+    processor.cpu_workers = 2  # Minimal CPU usage
+    processor.max_workers = 4  # Focus on GPU
+    
+    print("🔧 Initializing GPU-maximized processing...")
+    print("🎯 Target: 85%+ NVIDIA GPU utilization")
+    print("🎯 Large batch sizes for maximum throughput")
+    print("🎯 Real-time GPU monitoring")
+    print()
+    
+    # Process all files
+    batch_start_time = time.time()
+    all_results = []
+    
+    for i, file_path in enumerate(files_to_process, 1):
+        file_name = os.path.basename(file_path)
+        
+        print(f"📊 Processing file {i}/{len(files_to_process)}: {file_name}")
+        print("-" * 60)
+        
+        try:
+            result = processor.process_single_file_gpu_max(file_path)
+            if result:
+                all_results.append(result)
+                print(f"✅ {file_name} completed successfully!")
+                print(f"   Speed: {result['addresses_per_second']:.1f} addresses/second")
+                print(f"   Success rate: {(result['success_count']/result['total_addresses']*100):.1f}%")
+                print(f"   GPU Utilization: {result['gpu_utilization']:.1f}%")
+            else:
+                print(f"❌ {file_name} failed!")
+            
+        except Exception as e:
+            logging.error(f"Failed to process {file_name}: {e}")
+            print(f"❌ {file_name} failed: {e}")
+        
+        print()
+    
+    # Final summary
+    batch_total_time = time.time() - batch_start_time
+    
+    print("🎉 GPU-MAXIMIZED BATCH PROCESSING COMPLETE!")
+    print("=" * 80)
+    
+    if all_results:
+        total_addresses = sum(r['total_addresses'] for r in all_results)
+        total_success = sum(r['success_count'] for r in all_results)
+        avg_speed = sum(r['addresses_per_second'] for r in all_results) / len(all_results)
+        avg_gpu_util = sum(r['gpu_utilization'] for r in all_results) / len(all_results)
+        
+        print(f"📊 BATCH SUMMARY:")
+        print(f"   Files processed: {len(all_results)}/{len(files_to_process)}")
+        print(f"   Total addresses: {total_addresses:,}")
+        print(f"   Total successful: {total_success:,}")
+        print(f"   Overall success rate: {(total_success/total_addresses*100):.1f}%")
+        print(f"   Average speed: {avg_speed:.1f} addresses/second")
+        print(f"   Average GPU utilization: {avg_gpu_util:.1f}%")
+        print(f"   Total batch time: {batch_total_time/60:.1f} minutes")
+    
+    return all_results
+
+
+if __name__ == "__main__":
+    results = main()

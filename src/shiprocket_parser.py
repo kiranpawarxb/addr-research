@@ -225,7 +225,7 @@ class ShiprocketParser:
             return []
     
     def parse_batch(self, addresses: List[str]) -> List[ParsedAddress]:
-        """Parse multiple addresses in parallel.
+        """Parse multiple addresses sequentially (avoiding threading issues).
         
         Args:
             addresses: List of unstructured address texts to parse
@@ -238,30 +238,26 @@ class ShiprocketParser:
         
         logger.info(f"Starting batch parsing of {len(addresses)} addresses with Shiprocket...")
         
-        results = [None] * len(addresses)
+        # Ensure model is loaded before batch processing
+        self._load_model()
         
-        with ThreadPoolExecutor(max_workers=self.batch_size) as executor:
-            future_to_index = {
-                executor.submit(self.parse_address, addr): i
-                for i, addr in enumerate(addresses)
-            }
-            
-            completed = 0
-            for future in as_completed(future_to_index):
-                index = future_to_index[future]
-                try:
-                    results[index] = future.result()
-                    completed += 1
+        results = []
+        
+        # Process sequentially to avoid threading issues with GPU models
+        for i, addr in enumerate(addresses):
+            try:
+                result = self.parse_address(addr)
+                results.append(result)
+                
+                if (i + 1) % 10 == 0:
+                    logger.debug(f"Batch progress: {i + 1}/{len(addresses)}")
                     
-                    if completed % 10 == 0:
-                        logger.debug(f"Batch progress: {completed}/{len(addresses)}")
-                        
-                except Exception as e:
-                    logger.error(f"Error processing address at index {index}: {e}")
-                    results[index] = ParsedAddress(
-                        parse_success=False,
-                        parse_error=f"Batch processing error: {str(e)}"
-                    )
+            except Exception as e:
+                logger.error(f"Error processing address at index {i}: {e}")
+                results.append(ParsedAddress(
+                    parse_success=False,
+                    parse_error=f"Batch processing error: {str(e)}"
+                ))
         
         success_count = sum(1 for r in results if r.parse_success)
         failed_count = sum(1 for r in results if not r.parse_success)

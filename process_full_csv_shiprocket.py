@@ -73,19 +73,21 @@ def load_csv_data(csv_file: str) -> pd.DataFrame:
 
 
 def process_addresses_with_shiprocket(df: pd.DataFrame) -> List[Dict]:
-    """Process all addresses using Local rule-based parser."""
+    """Process all addresses using Shiprocket IndicBERT parser with GPU acceleration."""
     
-    print(f"\n🔧 Initializing Local rule-based parser...")
+    print(f"\n🔧 Initializing Shiprocket IndicBERT parser with GPU support...")
     
-    # Initialize Local parser (rule-based, fast, no dependencies)
-    parser = LocalLLMParser(
-        batch_size=50  # Process in batches of 50
+    # Initialize Shiprocket parser with GPU support
+    from src.shiprocket_parser import ShiprocketParser
+    parser = ShiprocketParser(
+        batch_size=20,  # Smaller batches for GPU memory efficiency
+        use_gpu=True    # Enable GPU acceleration
     )
     
-    print(f"🚀 Processing {len(df):,} addresses with Local parser...")
+    print(f"🚀 Processing {len(df):,} addresses with Shiprocket IndicBERT parser (GPU-accelerated)...")
     
     results = []
-    batch_size = 50
+    batch_size = 20  # Smaller batches for GPU memory efficiency
     
     # Process in batches with progress bar
     for i in tqdm(range(0, len(df), batch_size), desc="Processing batches", unit="batch"):

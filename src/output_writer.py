@@ -3,10 +3,26 @@
 import csv
 import logging
 import os
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from pathlib import Path
 
-from src.models import ConsolidatedGroup, AddressRecord, ParsedAddress
+try:
+    from .models import ConsolidatedGroup, AddressRecord, ParsedAddress
+    from .comprehensive_output_generator import (
+        ComprehensiveOutputGenerator, 
+        ComprehensiveOutputConfig,
+        create_comprehensive_output_from_processing_result
+    )
+    from .hybrid_processor import ProcessingResult
+except ImportError:
+    # Fallback for direct execution
+    from models import ConsolidatedGroup, AddressRecord, ParsedAddress
+    from comprehensive_output_generator import (
+        ComprehensiveOutputGenerator, 
+        ComprehensiveOutputConfig,
+        create_comprehensive_output_from_processing_result
+    )
+    from hybrid_processor import ProcessingResult
 
 
 logger = logging.getLogger(__name__)
@@ -17,15 +33,22 @@ class OutputWriter:
     
     Handles CSV export with original columns plus parsed fields and group identifiers.
     Implements error handling for file write operations and character escaping.
+    Enhanced with comprehensive output generation capabilities.
     """
     
-    def __init__(self, output_path: str):
+    def __init__(self, output_path: str, comprehensive_output: bool = False):
         """Initialize writer with output file path.
         
         Args:
             output_path: Path where the output CSV file will be written
+            comprehensive_output: Whether to generate comprehensive output with metadata
         """
         self.output_path = output_path
+        self.comprehensive_output = comprehensive_output
+        self.comprehensive_generator = None
+        
+        if comprehensive_output:
+            self.comprehensive_generator = ComprehensiveOutputGenerator()
         
     def write(self, consolidated_groups: List[ConsolidatedGroup]) -> int:
         """Write consolidated groups to CSV.
@@ -239,3 +262,90 @@ class OutputWriter:
                 logger.info(f"Cleaned up partial file: {self.output_path}")
         except Exception as e:
             logger.warning(f"Could not clean up partial file: {e}")
+    
+    def write_comprehensive_output(
+        self,
+        processing_result: ProcessingResult,
+        original_records: List[AddressRecord],
+        config: Optional[ComprehensiveOutputConfig] = None
+    ) -> Dict[str, str]:
+        """Write comprehensive output with all parsed fields and metadata.
+        
+        Generates comprehensive output including CSV with all parsed fields,
+        JSON metadata, performance reports, and error analysis.
+        
+        Args:
+            processing_result: Complete processing result with parsed addresses
+            original_records: Original address records from input
+            config: Optional configuration for output generation
+            
+        Returns:
+            Dictionary mapping output type to file path
+            
+        Requirements: 9.1, 9.2, 9.3, 9.4, 9.5
+        """
+        if not self.comprehensive_generator:
+            self.comprehensive_generator = ComprehensiveOutputGenerator(config)
+        
+        logger.info(f"Generating comprehensive output for {len(processing_result.parsed_addresses)} addresses")
+        
+        try:
+            # Use the comprehensive output generator
+            output_files = self.comprehensive_generator.generate_comprehensive_output(
+                processing_result.parsed_addresses,
+                original_records,
+                processing_result,
+                self.output_path
+            )
+            
+            logger.info(f"✅ Comprehensive output generated: {len(output_files)} files created")
+            
+            return output_files
+            
+        except Exception as e:
+            logger.error(f"Failed to generate comprehensive output: {e}")
+            raise
+    
+    def write_batch_processing_report(
+        self,
+        batch_report: 'BatchProcessingReport',
+        output_dir: str,
+        batch_id: str = None,
+        config: Optional[ComprehensiveOutputConfig] = None
+    ) -> Dict[str, str]:
+        """Write comprehensive batch processing report.
+        
+        Generates detailed batch processing reports including per-file results,
+        comparative performance analysis, and optimization recommendations.
+        
+        Args:
+            batch_report: Batch processing report with file results
+            output_dir: Directory for batch report outputs
+            batch_id: Optional batch identifier
+            config: Optional configuration for output generation
+            
+        Returns:
+            Dictionary mapping report type to file path
+            
+        Requirements: 9.3, 9.4
+        """
+        if not self.comprehensive_generator:
+            self.comprehensive_generator = ComprehensiveOutputGenerator(config)
+        
+        logger.info(f"Generating batch processing report for {batch_report.total_files_processed} files")
+        
+        try:
+            # Use the comprehensive output generator
+            report_files = self.comprehensive_generator.generate_batch_processing_report(
+                batch_report,
+                output_dir,
+                batch_id
+            )
+            
+            logger.info(f"✅ Batch processing report generated: {len(report_files)} files created")
+            
+            return report_files
+            
+        except Exception as e:
+            logger.error(f"Failed to generate batch processing report: {e}")
+            raise
