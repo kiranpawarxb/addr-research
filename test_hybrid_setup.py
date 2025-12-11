@@ -38,7 +38,7 @@ def test_hybrid_setup():
     # Test 2: Logging setup
     print("\n2. Testing logging setup...")
     try:
-        logger = setup_hybrid_logging(log_level='INFO')
+        logger = setup_hybrid_logging(level='INFO')
         logger.info("Test log message")
         print("✓ Logging setup successful")
     except Exception as e:
