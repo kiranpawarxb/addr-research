@@ -1,0 +1,237 @@
+2025-12-12 22:09:03,784 - INFO - Already processed files: ['p5']
+2025-12-12 22:09:03,785 - WARNING - File not found: export_customer_address_store_p8.csv
+2025-12-12 22:09:03,785 - WARNING - File not found: export_customer_address_store_p9.csv
+2025-12-12 22:09:03,785 - WARNING - File not found: export_customer_address_store_p10.csv
+2025-12-12 22:09:03,785 - WARNING - File not found: export_customer_address_store_p11.csv
+2025-12-12 22:09:03,786 - WARNING - File not found: export_customer_address_store_p12.csv
+2025-12-12 22:09:03,786 - WARNING - File not found: export_customer_address_store_p13.csv
+2025-12-12 22:09:03,786 - WARNING - File not found: export_customer_address_store_p14.csv
+2025-12-12 22:09:03,788 - WARNING - File not found: export_customer_address_store_p15.csv
+2025-12-12 22:09:03,788 - WARNING - File not found: export_customer_address_store_p16.csv
+2025-12-12 22:09:03,789 - WARNING - File not found: export_customer_address_store_p17.csv
+2025-12-12 22:09:03,789 - WARNING - File not found: export_customer_address_store_p18.csv
+2025-12-12 22:09:03,789 - WARNING - File not found: export_customer_address_store_p19.csv
+2025-12-12 22:09:03,789 - WARNING - File not found: export_customer_address_store_p20.csv
+2025-12-12 22:09:03,789 - WARNING - File not found: export_customer_address_store_p21.csv
+2025-12-12 22:09:03,789 - WARNING - File not found: export_customer_address_store_p22.csv
+2025-12-12 22:09:03,790 - WARNING - File not found: export_customer_address_store_p23.csv
+2025-12-12 22:09:03,790 - WARNING - File not found: export_customer_address_store_p24.csv
+2025-12-12 22:09:03,790 - WARNING - File not found: export_customer_address_store_p25.csv
+2025-12-12 22:09:03,790 - WARNING - File not found: export_customer_address_store_p26.csv
+2025-12-12 22:09:03,790 - WARNING - File not found: export_customer_address_store_p27.csv
+2025-12-12 22:09:03,790 - WARNING - File not found: export_customer_address_store_p28.csv
+2025-12-12 22:09:03,791 - WARNING - File not found: export_customer_address_store_p29.csv
+2025-12-12 22:09:03,791 - WARNING - File not found: export_customer_address_store_p30.csv
+2025-12-12 22:09:03,791 - WARNING - File not found: export_customer_address_store_p31.csv
+2025-12-12 22:09:03,791 - INFO - Skipped 1 already processed files: ['export_customer_address_store_p5.csv']
+2025-12-12 22:09:03,791 - INFO - Found 2 files to process
+2025-12-12 22:09:03,791 - INFO - 🚀 Initialized UltimateMultiDeviceParser:
+2025-12-12 22:09:03,791 - INFO -   CPU Cores Available: 32
+2025-12-12 22:09:03,791 - INFO -   CPU Workers: 0
+2025-12-12 22:09:03,791 - INFO -   Total Workers: 1
+2025-12-12 22:09:03,791 - INFO -   Batch Size: 200
+2025-12-12 22:09:03,791 - INFO -   NVIDIA GPU: True
+2025-12-12 22:09:03,791 - INFO -   Intel GPU: False
+2025-12-12 22:09:03,792 - INFO -   All CPU Cores: False
+2025-12-12 22:09:03,792 - INFO - 🚀 Starting SUSTAINED GPU processing: export_customer_address_store_p6.csv
+2025-12-12 22:09:04,398 - INFO - 📊 export_customer_address_store_p6.csv: 262,954 addresses to process
+2025-12-12 22:09:07,588 - INFO - 🔧 Setting up SUSTAINED NVIDIA GPU processing...
+2025-12-12 22:09:09,698 - INFO - ✅ SUSTAINED NVIDIA GPU setup complete:
+2025-12-12 22:09:09,699 - INFO -    GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+2025-12-12 22:09:09,699 - INFO -    Memory: 8.6 GB
+2025-12-12 22:09:09,699 - INFO -    Batch size: 400
+2025-12-12 22:09:09,699 - INFO -    GPU streams: 2
+2025-12-12 22:09:09,699 - INFO -    Queue size: 10
+2025-12-12 22:09:09,699 - INFO - 🎯 SUSTAINED work distribution for export_customer_address_store_p6.csv:
+2025-12-12 22:09:09,699 - INFO -    NVIDIA RTX 4070: 262,954 addresses (100% - SUSTAINED)
+2025-12-12 22:09:09,699 - INFO -    Other devices: 0 addresses (0%)
+2025-12-12 22:09:09,700 - INFO - 🟢 GPU Stream 0 worker started
+2025-12-12 22:09:09,700 - INFO - 🟢 GPU Stream 1 worker started
+2025-12-12 22:09:09,702 - INFO - 📊 Data feeder started for 262,954 addresses
+2025-12-12 22:09:09,703 - INFO - 🟢 Collecting results from 658 GPU batches...
+2025-12-12 22:09:13,918 - INFO - 🟢 GPU batches completed: 10/658 (1.5%) | GPU: 73.0%
+2025-12-12 22:09:17,469 - INFO - 🟢 GPU batches completed: 20/658 (3.0%) | GPU: 76.0%
+2025-12-12 22:09:20,598 - INFO - 🟢 GPU batches completed: 30/658 (4.6%) | GPU: 100.0%
+2025-12-12 22:09:23,926 - INFO - 🟢 GPU batches completed: 40/658 (6.1%) | GPU: 0.0%
+2025-12-12 22:09:24,514 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 16,400/262,954 (6.2%) | Rate: 819.9/sec | ETA: 5.0 min | GPU: 0.0% | Queue: 10
+2025-12-12 22:09:28,042 - INFO - 🟢 GPU batches completed: 50/658 (7.6%) | GPU: 100.0%
+2025-12-12 22:09:31,452 - INFO - 🟢 GPU batches completed: 60/658 (9.1%) | GPU: 61.0%
+2025-12-12 22:09:34,662 - INFO - 🟢 GPU batches completed: 70/658 (10.6%) | GPU: 98.0%
+2025-12-12 22:09:37,888 - INFO - 🟢 GPU batches completed: 80/658 (12.2%) | GPU: 20.0%
+2025-12-12 22:09:41,660 - INFO - 🟢 GPU batches completed: 90/658 (13.7%) | GPU: 33.0%
+2025-12-12 22:09:44,579 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 39,200/262,954 (14.9%) | Rate: 977.1/sec | ETA: 3.8 min | GPU: 100.0% | Queue: 10
+2025-12-12 22:09:44,941 - INFO - 🟢 GPU batches completed: 100/658 (15.2%) | GPU: 0.0%
+2025-12-12 22:09:48,657 - INFO - 🟢 GPU batches completed: 110/658 (16.7%) | GPU: 100.0%
+2025-12-12 22:09:52,208 - INFO - 🟢 GPU batches completed: 120/658 (18.2%) | GPU: 100.0%
+2025-12-12 22:09:55,608 - INFO - 🟢 GPU batches completed: 130/658 (19.8%) | GPU: 13.0%
+2025-12-12 22:09:59,043 - INFO - 🟢 GPU batches completed: 140/658 (21.3%) | GPU: 74.0%
+2025-12-12 22:10:02,253 - INFO - 🟢 GPU batches completed: 150/658 (22.8%) | GPU: 99.0%
+2025-12-12 22:10:04,689 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 62,400/262,954 (23.7%) | Rate: 1036.9/sec | ETA: 3.2 min | GPU: 82.0% | Queue: 10
+2025-12-12 22:10:05,673 - INFO - 🟢 GPU batches completed: 160/658 (24.3%) | GPU: 82.0%
+2025-12-12 22:10:09,090 - INFO - 🟢 GPU batches completed: 170/658 (25.8%) | GPU: 64.0%
+2025-12-12 22:10:13,034 - INFO - 🟢 GPU batches completed: 180/658 (27.4%) | GPU: 77.0%
+2025-12-12 22:10:16,478 - INFO - 🟢 GPU batches completed: 190/658 (28.9%) | GPU: 93.0%
+2025-12-12 22:10:19,829 - INFO - 🟢 GPU batches completed: 200/658 (30.4%) | GPU: 0.0%
+2025-12-12 22:10:23,281 - INFO - 🟢 GPU batches completed: 210/658 (31.9%) | GPU: 1.0%
+2025-12-12 22:10:24,757 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 85,600/262,954 (32.6%) | Rate: 1066.1/sec | ETA: 2.8 min | GPU: 99.0% | Queue: 10
+2025-12-12 22:10:26,855 - INFO - 🟢 GPU batches completed: 220/658 (33.4%) | GPU: 98.0%
+2025-12-12 22:10:30,974 - INFO - 🟢 GPU batches completed: 230/658 (35.0%) | GPU: 72.0%
+2025-12-12 22:10:34,323 - INFO - 🟢 GPU batches completed: 240/658 (36.5%) | GPU: 85.0%
+2025-12-12 22:10:37,862 - INFO - 🟢 GPU batches completed: 250/658 (38.0%) | GPU: 78.0%
+2025-12-12 22:10:41,119 - INFO - 🟢 GPU batches completed: 260/658 (39.5%) | GPU: 7.0%
+2025-12-12 22:10:44,480 - INFO - 🟢 GPU batches completed: 270/658 (41.0%) | GPU: 7.0%
+2025-12-12 22:10:44,856 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 108,000/262,954 (41.1%) | Rate: 1076.1/sec | ETA: 2.4 min | GPU: 99.0% | Queue: 10
+2025-12-12 22:10:47,839 - INFO - 🟢 GPU batches completed: 280/658 (42.6%) | GPU: 0.0%
+2025-12-12 22:10:51,219 - INFO - 🟢 GPU batches completed: 290/658 (44.1%) | GPU: 0.0%
+2025-12-12 22:10:54,705 - INFO - 🟢 GPU batches completed: 300/658 (45.6%) | GPU: 0.0%
+2025-12-12 22:10:58,762 - INFO - 🟢 GPU batches completed: 310/658 (47.1%) | GPU: 0.0%
+2025-12-12 22:11:02,108 - INFO - 🟢 GPU batches completed: 320/658 (48.6%) | GPU: 75.0%
+2025-12-12 22:11:04,904 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 131,200/262,954 (49.9%) | Rate: 1089.2/sec | ETA: 2.0 min | GPU: 100.0% | Queue: 10
+2025-12-12 22:11:05,428 - INFO - 🟢 GPU batches completed: 330/658 (50.2%) | GPU: 100.0%
+2025-12-12 22:11:09,179 - INFO - 🟢 GPU batches completed: 340/658 (51.7%) | GPU: 100.0%
+2025-12-12 22:11:12,635 - INFO - 🟢 GPU batches completed: 350/658 (53.2%) | GPU: 93.0%
+2025-12-12 22:11:16,527 - INFO - 🟢 GPU batches completed: 360/658 (54.7%) | GPU: 24.0%
+2025-12-12 22:11:20,200 - INFO - 🟢 GPU batches completed: 370/658 (56.2%) | GPU: 98.0%
+2025-12-12 22:11:24,016 - INFO - 🟢 GPU batches completed: 380/658 (57.8%) | GPU: 48.0%
+2025-12-12 22:11:24,979 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 153,200/262,954 (58.3%) | Rate: 1090.3/sec | ETA: 1.7 min | GPU: 3.0% | Queue: 10
+2025-12-12 22:11:27,258 - INFO - 🟢 GPU batches completed: 390/658 (59.3%) | GPU: 0.0%
+2025-12-12 22:11:30,530 - INFO - 🟢 GPU batches completed: 400/658 (60.8%) | GPU: 40.0%
+2025-12-12 22:11:33,857 - INFO - 🟢 GPU batches completed: 410/658 (62.3%) | GPU: 0.0%
+2025-12-12 22:11:37,163 - INFO - 🟢 GPU batches completed: 420/658 (63.8%) | GPU: 0.0%
+2025-12-12 22:11:40,465 - INFO - 🟢 GPU batches completed: 430/658 (65.3%) | GPU: 100.0%
+2025-12-12 22:11:44,181 - INFO - 🟢 GPU batches completed: 440/658 (66.9%) | GPU: 26.0%
+2025-12-12 22:11:45,104 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 176,800/262,954 (67.2%) | Rate: 1101.0/sec | ETA: 1.3 min | GPU: 82.0% | Queue: 10
+2025-12-12 22:11:47,320 - INFO - 🟢 GPU batches completed: 450/658 (68.4%) | GPU: 93.0%
+2025-12-12 22:11:50,556 - INFO - 🟢 GPU batches completed: 460/658 (69.9%) | GPU: 30.0%
+2025-12-12 22:11:54,055 - INFO - 🟢 GPU batches completed: 470/658 (71.4%) | GPU: 100.0%
+2025-12-12 22:11:57,894 - INFO - 🟢 GPU batches completed: 480/658 (72.9%) | GPU: 0.0%
+2025-12-12 22:12:01,582 - INFO - 🟢 GPU batches completed: 490/658 (74.5%) | GPU: 0.0%
+2025-12-12 22:12:04,790 - INFO - 🟢 GPU batches completed: 500/658 (76.0%) | GPU: 91.0%
+2025-12-12 22:12:05,186 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 200,400/262,954 (76.2%) | Rate: 1109.0/sec | ETA: 0.9 min | GPU: 91.0% | Queue: 10
+2025-12-12 22:12:08,110 - INFO - 🟢 GPU batches completed: 510/658 (77.5%) | GPU: 100.0%
+2025-12-12 22:12:11,249 - INFO - 🟢 GPU batches completed: 520/658 (79.0%) | GPU: 83.0%
+2025-12-12 22:12:14,500 - INFO - 🟢 GPU batches completed: 530/658 (80.5%) | GPU: 44.0%
+2025-12-12 22:12:17,777 - INFO - 🟢 GPU batches completed: 540/658 (82.1%) | GPU: 70.0%
+2025-12-12 22:12:22,041 - INFO - 🟢 GPU batches completed: 550/658 (83.6%) | GPU: 1.0%
+2025-12-12 22:12:25,257 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 223,200/262,954 (84.9%) | Rate: 1111.6/sec | ETA: 0.6 min | GPU: 23.0% | Queue: 10
+2025-12-12 22:12:25,811 - INFO - 🟢 GPU batches completed: 560/658 (85.1%) | GPU: 100.0%
+2025-12-12 22:12:29,705 - INFO - 🟢 GPU batches completed: 570/658 (86.6%) | GPU: 0.0%
+2025-12-12 22:12:33,240 - INFO - 🟢 GPU batches completed: 580/658 (88.1%) | GPU: 17.0%
+2025-12-12 22:12:36,667 - INFO - 🟢 GPU batches completed: 590/658 (89.7%) | GPU: 35.0%
+2025-12-12 22:12:40,475 - INFO - 🟢 GPU batches completed: 600/658 (91.2%) | GPU: 2.0%
+2025-12-12 22:12:44,030 - INFO - 🟢 GPU batches completed: 610/658 (92.7%) | GPU: 15.0%
+2025-12-12 22:12:45,312 - INFO - 📊 SUSTAINED [export_customer_address_store_p6.csv]: 245,200/262,954 (93.2%) | Rate: 1110.2/sec | ETA: 0.3 min | GPU: 60.0% | Queue: 10
+2025-12-12 22:12:47,729 - INFO - 🟢 GPU batches completed: 620/658 (94.2%) | GPU: 100.0%
+2025-12-12 22:12:51,640 - INFO - 🟢 GPU batches completed: 630/658 (95.7%) | GPU: 26.0%
+2025-12-12 22:12:55,388 - INFO - 🟢 GPU batches completed: 640/658 (97.3%) | GPU: 100.0%
+2025-12-12 22:12:57,666 - INFO - 📊 Data feeder completed - 658 batches queued
+2025-12-12 22:12:59,118 - INFO - 🟢 GPU batches completed: 650/658 (98.8%) | GPU: 89.0%
+2025-12-12 22:13:01,697 - INFO - 🟢 GPU Stream 0 worker stopped
+2025-12-12 22:13:01,698 - INFO - 🟢 GPU Stream 1 worker stopped
+2025-12-12 22:13:04,829 - INFO - 🎉 export_customer_address_store_p6.csv SUSTAINED GPU processing completed!
+2025-12-12 22:13:04,830 - INFO - 📊 Results: 262,954/262,954 success (100.0%)
+2025-12-12 22:13:04,830 - INFO - ⏱️ Time: 233.0s (3.9 min)
+2025-12-12 22:13:04,830 - INFO - 🚀 Speed: 1128.5 addresses/second
+2025-12-12 22:13:04,830 - INFO - 🎯 Final GPU Utilization: 1.0%
+2025-12-12 22:13:04,882 - INFO - 🚀 Starting SUSTAINED GPU processing: export_customer_address_store_p7.csv
+2025-12-12 22:13:05,608 - INFO - 📊 export_customer_address_store_p7.csv: 263,981 addresses to process
+2025-12-12 22:13:05,609 - INFO - 🔧 Setting up SUSTAINED NVIDIA GPU processing...
+2025-12-12 22:13:07,592 - INFO - ✅ SUSTAINED NVIDIA GPU setup complete:
+2025-12-12 22:13:07,592 - INFO -    GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+2025-12-12 22:13:07,593 - INFO -    Memory: 8.6 GB
+2025-12-12 22:13:07,593 - INFO -    Batch size: 400
+2025-12-12 22:13:07,593 - INFO -    GPU streams: 2
+2025-12-12 22:13:07,593 - INFO -    Queue size: 10
+2025-12-12 22:13:07,593 - INFO - 🎯 SUSTAINED work distribution for export_customer_address_store_p7.csv:
+2025-12-12 22:13:07,593 - INFO -    NVIDIA RTX 4070: 263,981 addresses (100% - SUSTAINED)
+2025-12-12 22:13:07,593 - INFO -    Other devices: 0 addresses (0%)
+2025-12-12 22:13:07,594 - INFO - 🟢 GPU Stream 0 worker started
+2025-12-12 22:13:07,594 - INFO - 🟢 GPU Stream 1 worker started
+2025-12-12 22:13:07,596 - INFO - 📊 Data feeder started for 263,981 addresses
+2025-12-12 22:13:07,597 - INFO - 🟢 Collecting results from 660 GPU batches...
+2025-12-12 22:13:12,027 - INFO - 🟢 GPU batches completed: 10/660 (1.5%) | GPU: 98.0%
+2025-12-12 22:13:15,722 - INFO - 🟢 GPU batches completed: 20/660 (3.0%) | GPU: 100.0%
+2025-12-12 22:13:19,312 - INFO - 🟢 GPU batches completed: 30/660 (4.5%) | GPU: 20.0%
+2025-12-12 22:13:22,847 - INFO - 🟢 GPU batches completed: 40/660 (6.1%) | GPU: 0.0%
+2025-12-12 22:13:25,665 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 18,000/263,981 (6.8%) | Rate: 899.9/sec | ETA: 4.6 min | GPU: 0.0% | Queue: 10
+2025-12-12 22:13:27,234 - INFO - 🟢 GPU batches completed: 50/660 (7.6%) | GPU: 54.0%
+2025-12-12 22:13:30,634 - INFO - 🟢 GPU batches completed: 60/660 (9.1%) | GPU: 100.0%
+2025-12-12 22:13:34,116 - INFO - 🟢 GPU batches completed: 70/660 (10.6%) | GPU: 100.0%
+2025-12-12 22:13:37,565 - INFO - 🟢 GPU batches completed: 80/660 (12.1%) | GPU: 26.0%
+2025-12-12 22:13:41,621 - INFO - 🟢 GPU batches completed: 90/660 (13.6%) | GPU: 0.0%
+2025-12-12 22:13:45,256 - INFO - 🟢 GPU batches completed: 100/660 (15.2%) | GPU: 0.0%
+2025-12-12 22:13:45,717 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 40,400/263,981 (15.3%) | Rate: 1008.5/sec | ETA: 3.7 min | GPU: 0.0% | Queue: 10
+2025-12-12 22:13:49,407 - INFO - 🟢 GPU batches completed: 110/660 (16.7%) | GPU: 0.0%
+2025-12-12 22:13:53,105 - INFO - 🟢 GPU batches completed: 120/660 (18.2%) | GPU: 100.0%
+2025-12-12 22:13:56,821 - INFO - 🟢 GPU batches completed: 130/660 (19.7%) | GPU: 29.0%
+2025-12-12 22:14:00,455 - INFO - 🟢 GPU batches completed: 140/660 (21.2%) | GPU: 75.0%
+2025-12-12 22:14:04,042 - INFO - 🟢 GPU batches completed: 150/660 (22.7%) | GPU: 100.0%
+2025-12-12 22:14:05,831 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 62,000/263,981 (23.5%) | Rate: 1031.4/sec | ETA: 3.3 min | GPU: 96.0% | Queue: 10
+2025-12-12 22:14:07,513 - INFO - 🟢 GPU batches completed: 160/660 (24.2%) | GPU: 99.0%
+2025-12-12 22:14:11,007 - INFO - 🟢 GPU batches completed: 170/660 (25.8%) | GPU: 0.0%
+2025-12-12 22:14:14,861 - INFO - 🟢 GPU batches completed: 180/660 (27.3%) | GPU: 60.0%
+2025-12-12 22:14:18,497 - INFO - 🟢 GPU batches completed: 190/660 (28.8%) | GPU: 41.0%
+2025-12-12 22:14:22,205 - INFO - 🟢 GPU batches completed: 200/660 (30.3%) | GPU: 100.0%
+2025-12-12 22:14:25,525 - INFO - 🟢 GPU batches completed: 210/660 (31.8%) | GPU: 87.0%
+2025-12-12 22:14:25,881 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 84,400/263,981 (32.0%) | Rate: 1052.0/sec | ETA: 2.8 min | GPU: 79.0% | Queue: 10
+2025-12-12 22:14:29,095 - INFO - 🟢 GPU batches completed: 220/660 (33.3%) | GPU: 36.0%
+2025-12-12 22:14:33,255 - INFO - 🟢 GPU batches completed: 230/660 (34.8%) | GPU: 53.0%
+2025-12-12 22:14:36,609 - INFO - 🟢 GPU batches completed: 240/660 (36.4%) | GPU: 28.0%
+2025-12-12 22:14:39,997 - INFO - 🟢 GPU batches completed: 250/660 (37.9%) | GPU: 1.0%
+2025-12-12 22:14:43,600 - INFO - 🟢 GPU batches completed: 260/660 (39.4%) | GPU: 100.0%
+2025-12-12 22:14:45,933 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 106,400/263,981 (40.3%) | Rate: 1061.1/sec | ETA: 2.5 min | GPU: 43.0% | Queue: 10
+2025-12-12 22:14:47,031 - INFO - 🟢 GPU batches completed: 270/660 (40.9%) | GPU: 52.0%
+2025-12-12 22:14:50,413 - INFO - 🟢 GPU batches completed: 280/660 (42.4%) | GPU: 76.0%
+2025-12-12 22:14:53,987 - INFO - 🟢 GPU batches completed: 290/660 (43.9%) | GPU: 67.0%
+2025-12-12 22:14:57,764 - INFO - 🟢 GPU batches completed: 300/660 (45.5%) | GPU: 100.0%
+2025-12-12 22:15:01,535 - INFO - 🟢 GPU batches completed: 310/660 (47.0%) | GPU: 0.0%
+2025-12-12 22:15:05,021 - INFO - 🟢 GPU batches completed: 320/660 (48.5%) | GPU: 1.0%
+2025-12-12 22:15:05,991 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 128,800/263,981 (48.8%) | Rate: 1070.4/sec | ETA: 2.1 min | GPU: 3.0% | Queue: 10
+2025-12-12 22:15:08,460 - INFO - 🟢 GPU batches completed: 330/660 (50.0%) | GPU: 40.0%
+2025-12-12 22:15:11,781 - INFO - 🟢 GPU batches completed: 340/660 (51.5%) | GPU: 100.0%
+2025-12-12 22:15:15,158 - INFO - 🟢 GPU batches completed: 350/660 (53.0%) | GPU: 100.0%
+2025-12-12 22:15:18,845 - INFO - 🟢 GPU batches completed: 360/660 (54.5%) | GPU: 46.0%
+2025-12-12 22:15:22,233 - INFO - 🟢 GPU batches completed: 370/660 (56.1%) | GPU: 2.0%
+2025-12-12 22:15:25,542 - INFO - 🟢 GPU batches completed: 380/660 (57.6%) | GPU: 29.0%
+2025-12-12 22:15:26,040 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 152,400/263,981 (57.7%) | Rate: 1085.6/sec | ETA: 1.7 min | GPU: 39.0% | Queue: 10
+2025-12-12 22:15:28,794 - INFO - 🟢 GPU batches completed: 390/660 (59.1%) | GPU: 100.0%
+2025-12-12 22:15:32,004 - INFO - 🟢 GPU batches completed: 400/660 (60.6%) | GPU: 69.0%
+2025-12-12 22:15:35,328 - INFO - 🟢 GPU batches completed: 410/660 (62.1%) | GPU: 16.0%
+2025-12-12 22:15:38,704 - INFO - 🟢 GPU batches completed: 420/660 (63.6%) | GPU: 100.0%
+2025-12-12 22:15:42,072 - INFO - 🟢 GPU batches completed: 430/660 (65.2%) | GPU: 100.0%
+2025-12-12 22:15:45,904 - INFO - 🟢 GPU batches completed: 440/660 (66.7%) | GPU: 100.0%
+2025-12-12 22:15:46,105 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 176,000/263,981 (66.7%) | Rate: 1097.0/sec | ETA: 1.3 min | GPU: 100.0% | Queue: 10
+2025-12-12 22:15:49,116 - INFO - 🟢 GPU batches completed: 450/660 (68.2%) | GPU: 72.0%
+2025-12-12 22:15:52,646 - INFO - 🟢 GPU batches completed: 460/660 (69.7%) | GPU: 25.0%
+2025-12-12 22:15:56,034 - INFO - 🟢 GPU batches completed: 470/660 (71.2%) | GPU: 27.0%
+2025-12-12 22:15:59,773 - INFO - 🟢 GPU batches completed: 480/660 (72.7%) | GPU: 0.0%
+2025-12-12 22:16:03,373 - INFO - 🟢 GPU batches completed: 490/660 (74.2%) | GPU: 0.0%
+2025-12-12 22:16:06,154 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 199,200/263,981 (75.5%) | Rate: 1103.6/sec | ETA: 1.0 min | GPU: 38.0% | Queue: 10
+2025-12-12 22:16:06,676 - INFO - 🟢 GPU batches completed: 500/660 (75.8%) | GPU: 38.0%
+2025-12-12 22:16:10,107 - INFO - 🟢 GPU batches completed: 510/660 (77.3%) | GPU: 98.0%
+2025-12-12 22:16:13,455 - INFO - 🟢 GPU batches completed: 520/660 (78.8%) | GPU: 100.0%
+2025-12-12 22:16:16,833 - INFO - 🟢 GPU batches completed: 530/660 (80.3%) | GPU: 100.0%
+2025-12-12 22:16:20,203 - INFO - 🟢 GPU batches completed: 540/660 (81.8%) | GPU: 0.0%
+2025-12-12 22:16:24,136 - INFO - 🟢 GPU batches completed: 550/660 (83.3%) | GPU: 1.0%
+2025-12-12 22:16:26,208 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 222,000/263,981 (84.1%) | Rate: 1107.0/sec | ETA: 0.6 min | GPU: 1.0% | Queue: 10
+2025-12-12 22:16:27,925 - INFO - 🟢 GPU batches completed: 560/660 (84.8%) | GPU: 90.0%
+2025-12-12 22:16:38,936 - INFO - 🟢 GPU batches completed: 570/660 (86.4%) | GPU: 0.0%
+2025-12-12 22:16:46,354 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 230,000/263,981 (87.1%) | Rate: 1042.6/sec | ETA: 0.5 min | GPU: 0.0% | Queue: 10
+2025-12-12 22:16:50,694 - INFO - 🟢 GPU batches completed: 580/660 (87.9%) | GPU: 74.0%
+2025-12-12 22:16:54,024 - INFO - 🟢 GPU batches completed: 590/660 (89.4%) | GPU: 64.0%
+2025-12-12 22:16:57,286 - INFO - 🟢 GPU batches completed: 600/660 (90.9%) | GPU: 0.0%
+2025-12-12 22:17:00,546 - INFO - 🟢 GPU batches completed: 610/660 (92.4%) | GPU: 32.0%
+2025-12-12 22:17:04,072 - INFO - 🟢 GPU batches completed: 620/660 (93.9%) | GPU: 44.0%
+2025-12-12 22:17:06,409 - INFO - 📊 SUSTAINED [export_customer_address_store_p7.csv]: 250,400/263,981 (94.9%) | Rate: 1040.1/sec | ETA: 0.2 min | GPU: 85.0% | Queue: 10
+2025-12-12 22:17:07,579 - INFO - 🟢 GPU batches completed: 630/660 (95.5%) | GPU: 19.0%
+2025-12-12 22:17:10,873 - INFO - 🟢 GPU batches completed: 640/660 (97.0%) | GPU: 3.0%
+2025-12-12 22:17:13,620 - INFO - 📊 Data feeder completed - 660 batches queued
+2025-12-12 22:17:14,375 - INFO - 🟢 GPU batches completed: 650/660 (98.5%) | GPU: 57.0%
+2025-12-12 22:17:17,666 - INFO - 🟢 GPU batches completed: 660/660 (100.0%) | GPU: 98.0%
+2025-12-12 22:17:17,666 - INFO - 🟢 GPU Stream 1 worker stopped
+2025-12-12 22:17:17,666 - INFO - 🟢 GPU Stream 0 worker stopped
+2025-12-12 22:17:20,298 - INFO - 🎉 export_customer_address_store_p7.csv SUSTAINED GPU processing completed!
+2025-12-12 22:17:20,299 - INFO - 📊 Results: 263,981/263,981 success (100.0%)
+2025-12-12 22:17:20,299 - INFO - ⏱️ Time: 251.1s (4.2 min)
+2025-12-12 22:17:20,299 - INFO - 🚀 Speed: 1051.4 addresses/second
+2025-12-12 22:17:20,299 - INFO - 🎯 Final GPU Utilization: 0.0%
