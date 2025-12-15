@@ -91,7 +91,7 @@ def max_distance_in_group_fast(coordinates):
     # Return maximum distance
     return np.max(distances)
 
-def load_data_with_pandas(filename='export_customer_address_store_p0.csv'):
+def load_data_with_pandas(filename='addr-research/export_customer_address_store_p0.csv'):
     """Load data using pandas for proper CSV handling"""
     log_progress("DATA_LOADING", f"Loading from {filename} using pandas")
     
@@ -325,17 +325,17 @@ if __name__ == "__main__":
     log_progress("INITIALIZATION", "Starting BallTree-optimized circular clustering")
     
     # Load data
-    addresses = load_data_with_pandas('export_customer_address_store_p0.csv')
+    addresses = load_data_with_pandas('addr-research/export_customer_address_store_p0.csv')
     
     if not addresses:
         log_progress("ERROR", "No valid addresses loaded. Exiting.")
         exit(1)
     
     # Perform BallTree clustering
-    clusters = balltree_circular_clustering(addresses, max_diameter_m=300, min_points=3)
+    clusters = balltree_circular_clustering(addresses, max_diameter_m=50, min_points=3)
     
     # Save results
-    save_results(addresses, clusters)
+    save_results(addresses, clusters, 'addr-research/balltree_clustered_50m.csv')
     
     # Final statistics
     total_time = time.time() - overall_start
@@ -368,7 +368,7 @@ if __name__ == "__main__":
         print(f"  Smallest cluster: {min(sizes):,} addresses")
         print(f"  Average max distance: {sum(distances)/len(distances):.1f}m")
         print(f"  Maximum distance found: {max(distances):.1f}m")
-        print(f"  All clusters ≤ 300m diameter: {all(d <= 300 for d in distances)}")
+        print(f"  All clusters ≤ 50m diameter: {all(d <= 50 for d in distances)}")
         
         # Show top clusters
         sorted_clusters = sorted(clusters, key=lambda x: x['size'], reverse=True)
