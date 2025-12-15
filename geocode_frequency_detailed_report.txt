@@ -1,0 +1,48 @@
+GEOCODE FREQUENCY DETAILED REPORT
+============================================================
+Analysis Date: 2025-12-15 14:16:14.555749
+Source File: export_customer_address_store_p0.csv
+Total unique geocodes: 263945
+Total addresses: 263945
+------------------------------------------------------------
+0 geocodes          :   70,561 addresses ( 26.73%)
+1 geocode           :  117,000 addresses ( 44.33%)
+2 geocodes          :   30,590 addresses ( 11.59%)
+3 geocodes          :   13,925 addresses (  5.28%)
+4 geocodes          :    7,953 addresses (  3.01%)
+5 geocodes          :    5,163 addresses (  1.96%)
+6 geocodes          :    3,614 addresses (  1.37%)
+7 geocodes          :    2,541 addresses (  0.96%)
+8 geocodes          :    1,918 addresses (  0.73%)
+9 geocodes          :    1,435 addresses (  0.54%)
+10 geocodes         :    1,162 addresses (  0.44%)
+11-50 geocodes      :    7,517 addresses (  2.85%)
+51-100 geocodes     :      470 addresses (  0.18%)
+101-1000 geocodes   :       95 addresses (  0.04%)
+1000+ geocodes      :        1 addresses (  0.00%)
+------------------------------------------------------------
+Total               :  263,945 addresses
+
+
+TOP 20 MOST FREQUENT GEOCODES:
+----------------------------------------
+ 1. 0: 1 addresses
+ 2. 1: 2 addresses
+ 3. 2: 1 addresses
+ 4. 3: 1 addresses
+ 5. 4: 1 addresses
+ 6. 5: 1 addresses
+ 7. 6: 1 addresses
+ 8. 7: 1 addresses
+ 9. 8: 1 addresses
+10. 9: 1 addresses
+11. 10: 3 addresses
+12. 11: 1 addresses
+13. 12: 1 addresses
+14. 13: 1 addresses
+15. 14: 4 addresses
+16. 15: 1 addresses
+17. 16: 1 addresses
+18. 17: 1 addresses
+19. 18: 1 addresses
+20. 19: 1 addresses
