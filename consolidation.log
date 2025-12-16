@@ -1,0 +1,1271 @@
+2025-12-09 18:49:18 - root - INFO - Logging to file: consolidation.log
+2025-12-09 18:49:18 - root - INFO - ======================================================================
+2025-12-09 18:49:18 - root - INFO - Address Consolidation System - Starting
+2025-12-09 18:49:18 - root - INFO - ======================================================================
+2025-12-09 18:49:18 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-13\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 18:49:18 - root - INFO - Input file: test.csv
+2025-12-09 18:49:18 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 18:49:18 - root - INFO - Log level: INFO
+2025-12-09 18:49:18 - root - ERROR - File not found: Input file not found: test.csv
+2025-12-09 18:50:14 - root - INFO - Logging to file: consolidation.log
+2025-12-09 18:50:14 - root - INFO - ======================================================================
+2025-12-09 18:50:14 - root - INFO - Address Consolidation System - Starting
+2025-12-09 18:50:14 - root - INFO - ======================================================================
+2025-12-09 18:50:14 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-15\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 18:50:14 - root - INFO - Input file: C:/Users/Kiran Pawar/AppData/Local/Temp/pytest-of-Kiran Pawar/pytest-15/test_main_keyboard_interrupt0/test.csv
+2025-12-09 18:50:14 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 18:50:14 - root - INFO - Log level: INFO
+2025-12-09 18:50:14 - root - WARNING - Operation cancelled by user
+2025-12-09 18:50:33 - root - INFO - Logging to file: consolidation.log
+2025-12-09 18:50:33 - root - INFO - ======================================================================
+2025-12-09 18:50:33 - root - INFO - Address Consolidation System - Starting
+2025-12-09 18:50:33 - root - INFO - ======================================================================
+2025-12-09 18:50:33 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-16\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 18:50:33 - root - INFO - Input file: C:/Users/Kiran Pawar/AppData/Local/Temp/pytest-of-Kiran Pawar/pytest-16/test_main_keyboard_interrupt0/test.csv
+2025-12-09 18:50:33 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 18:50:33 - root - INFO - Log level: INFO
+2025-12-09 18:50:33 - root - WARNING - Operation cancelled by user
+2025-12-09 18:52:43 - root - INFO - Logging to file: consolidation.log
+2025-12-09 18:52:43 - root - INFO - ======================================================================
+2025-12-09 18:52:43 - root - INFO - Address Consolidation System - Starting
+2025-12-09 18:52:43 - root - INFO - ======================================================================
+2025-12-09 18:52:43 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 18:52:43 - root - INFO - Input file: C:/Users/Kiran Pawar/AppData/Local/Temp/pytest-of-Kiran Pawar/pytest-17/test_main_keyboard_interrupt0/test.csv
+2025-12-09 18:52:43 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 18:52:43 - root - INFO - Log level: INFO
+2025-12-09 18:52:43 - root - WARNING - Operation cancelled by user
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - No records to consolidate
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 1 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (2 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 3 groups (0 unmatched records)
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:52:44 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 18:52:44 - src.csv_reader - INFO - CSV loading complete. Loaded 2 records, skipped 0 malformed rows.
+2025-12-09 18:52:44 - src.csv_reader - WARNING - Skipping malformed row 3: addr_text is required but empty or missing. Row data: {'addr_hash_key': 'def456', 'addr_text': '', 'city_id': 'DEL', 'pincode': '110001', 'state_id': 'DL', 'zone_id': '2', 'address_id': 'addr2', 'assigned_pickup_dlvd_geo_points': 'POINT(3 4)', 'assigned_pickup_dlvd_geo_points_count': '2'}
+2025-12-09 18:52:44 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 18:52:44 - src.csv_reader - WARNING - Skipping malformed row 2: pincode is required but empty or missing. Row data: {'addr_hash_key': 'abc123', 'addr_text': '123 Main St', 'city_id': 'MUM', 'pincode': '', 'state_id': 'MH', 'zone_id': '1', 'address_id': 'addr1', 'assigned_pickup_dlvd_geo_points': 'POINT(1 2)', 'assigned_pickup_dlvd_geo_points_count': '1'}
+2025-12-09 18:52:44 - src.csv_reader - INFO - CSV loading complete. Loaded 0 records, skipped 1 malformed rows.
+2025-12-09 18:52:44 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 18:52:44 - src.llm_parser - WARNING - Empty address text provided
+2025-12-09 18:52:44 - src.llm_parser - WARNING - API request timeout (attempt 1/3)
+2025-12-09 18:52:44 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:52:44 - src.llm_parser - WARNING - API request timeout (attempt 2/3)
+2025-12-09 18:52:44 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 18:52:44 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 18:52:44 - src.llm_parser - WARNING - API request timeout (attempt 1/3)
+2025-12-09 18:52:44 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:52:44 - src.llm_parser - WARNING - API request timeout (attempt 2/3)
+2025-12-09 18:52:44 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 18:52:44 - src.llm_parser - WARNING - API request timeout (attempt 3/3)
+2025-12-09 18:52:44 - src.llm_parser - ERROR - API request error (attempt 1/3): API Error
+2025-12-09 18:52:44 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:52:44 - src.llm_parser - INFO - Successfully parsed address after 2 attempts
+2025-12-09 18:52:44 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0)
+2025-12-09 18:52:44 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:52:44 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0)
+2025-12-09 18:52:44 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 18:52:44 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 18:52:44 - src.llm_parser - INFO - Parsing batch of 3 addresses...
+2025-12-09 18:52:44 - src.llm_parser - INFO - Batch parsing complete. Success: 3, Failed: 0
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_single_group0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_single_group0\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_multiple_groups0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 2 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_multiple_groups0\output.csv
+2025-12-09 18:52:44 - src.output_writer - WARNING - No consolidated groups to write
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_preserves_all_origi0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_preserves_all_origi0\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_handles_empty_parse0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_handles_empty_parse0\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_handles_unmatched_g0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_write_handles_unmatched_g0\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_escape_null_bytes0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_escape_null_bytes0\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_escape_control_characters0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_escape_control_characters0\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_preserve_valid_whitespace0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_preserve_valid_whitespace0\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_creates_output_directory0\new_dir\subdir\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_creates_output_directory0\new_dir\subdir\output.csv
+2025-12-09 18:52:44 - src.output_writer - INFO - Writing consolidated results to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_location_identifier_forma0\output.csv...
+2025-12-09 18:52:44 - src.output_writer - INFO - Successfully wrote 2 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-17\test_location_identifier_forma0\output.csv
+2025-12-09 18:52:44 - src.pipeline - INFO - Starting Address Consolidation Pipeline...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 1: Reading CSV file...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 2: Parsing addresses with LLM...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 3: Consolidating addresses...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 4: Writing output CSV...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 5: Generating statistics...
+2025-12-09 18:52:44 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 18:52:44 - src.pipeline - INFO - Starting Address Consolidation Pipeline...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 1: Reading CSV file...
+2025-12-09 18:52:44 - src.pipeline - WARNING - No records to process. Exiting.
+2025-12-09 18:52:44 - src.pipeline - INFO - Successfully loaded 1 records (skipped 0 malformed rows)
+2025-12-09 18:52:44 - src.pipeline - ERROR - Error reading CSV file: CSV file is missing required columns: addr_text, pincode
+2025-12-09 18:52:44 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 0
+2025-12-09 18:52:44 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 1
+2025-12-09 18:52:44 - src.pipeline - ERROR - Error processing batch 1: API error
+2025-12-09 18:52:44 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 2
+2025-12-09 18:52:44 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 18:52:44 - src.pipeline - INFO - Successfully wrote 10 records to test_output.csv
+2025-12-09 18:52:44 - src.pipeline - ERROR - Error generating statistics: Stats error
+2025-12-09 18:52:44 - src.pipeline - INFO - Starting Address Consolidation Pipeline...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 1: Reading CSV file...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 2: Parsing addresses with LLM...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 3: Consolidating addresses...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 4: Writing output CSV...
+2025-12-09 18:52:44 - src.pipeline - INFO - Stage 5: Generating statistics...
+2025-12-09 18:52:44 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 18:52:44 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-12-09 18:58:54 - root - INFO - Logging to file: consolidation.log
+2025-12-09 18:58:54 - root - INFO - ======================================================================
+2025-12-09 18:58:54 - root - INFO - Address Consolidation System - Starting
+2025-12-09 18:58:54 - root - INFO - ======================================================================
+2025-12-09 18:58:54 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 18:58:54 - root - INFO - Input file: C:/Users/Kiran Pawar/AppData/Local/Temp/pytest-of-Kiran Pawar/pytest-18/test_main_keyboard_interrupt0/test.csv
+2025-12-09 18:58:54 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 18:58:54 - root - INFO - Log level: INFO
+2025-12-09 18:58:54 - root - WARNING - Operation cancelled by user
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - No records to consolidate
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 1 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Unmatched group contains 2 records
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (2 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.95, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Fuzzy matching merged 0 records into existing groups
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 3 groups (0 unmatched records)
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 18:58:54 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 18:58:54 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_read_valid_csv0\test.csv
+2025-12-09 18:58:54 - src.csv_reader - INFO - CSV loading complete. Loaded 2 records, skipped 0 malformed rows.
+2025-12-09 18:58:54 - src.csv_reader - WARNING - Skipping malformed row 3: addr_text is required but empty or missing. Row data: {'addr_hash_key': 'def456', 'addr_text': '', 'city_id': 'DEL', 'pincode': '110001', 'state_id': 'DL', 'zone_id': '2', 'address_id': 'addr2', 'assigned_pickup_dlvd_geo_points': 'POINT(3 4)', 'assigned_pickup_dlvd_geo_points_count': '2'}
+2025-12-09 18:58:54 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_raw_data_preserved0\test.csv
+2025-12-09 18:58:54 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 18:58:54 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_empty_pincode_raises_erro0\test.csv
+2025-12-09 18:58:54 - src.csv_reader - WARNING - Skipping malformed row 2: pincode is required but empty or missing. Row data: {'addr_hash_key': 'abc123', 'addr_text': '123 Main St', 'city_id': 'MUM', 'pincode': '', 'state_id': 'MH', 'zone_id': '1', 'address_id': 'addr1', 'assigned_pickup_dlvd_geo_points': 'POINT(1 2)', 'assigned_pickup_dlvd_geo_points_count': '1'}
+2025-12-09 18:58:54 - src.csv_reader - INFO - CSV loading complete. Loaded 0 records, skipped 1 malformed rows.
+2025-12-09 18:58:54 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_non_numeric_count_default0\test.csv
+2025-12-09 18:58:54 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 18:58:54 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_streaming_large_file0\large.csv
+2025-12-09 18:58:54 - src.llm_parser - WARNING - Empty address text provided
+2025-12-09 18:58:54 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:58:54 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 18:58:54 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:58:54 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 18:58:54 - src.llm_parser - WARNING - API request timeout (attempt 3/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - ERROR - API timeout after 3 retries for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - ERROR - API request error (attempt 1/3): API Error for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Successfully parsed address after 2 attempts
+2025-12-09 18:58:54 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 18:58:54 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 18:58:54 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 18:58:54 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_single_group0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_single_group0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_multiple_groups0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 2 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 2 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 2 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_multiple_groups0\output.csv
+2025-12-09 18:58:54 - src.output_writer - WARNING - No consolidated groups to write
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_preserves_all_origi0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_preserves_all_origi0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_handles_empty_parse0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_handles_empty_parse0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_handles_unmatched_g0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_write_handles_unmatched_g0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_escape_null_bytes0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_escape_null_bytes0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_escape_control_characters0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_escape_control_characters0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_preserve_valid_whitespace0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_preserve_valid_whitespace0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_creates_output_directory0\new_dir\subdir\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Creating output directory: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_creates_output_directory0\new_dir\subdir
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 1 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 1 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_creates_output_directory0\new_dir\subdir\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Starting output write to: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_location_identifier_forma0\output.csv
+2025-12-09 18:58:54 - src.output_writer - INFO - Writing 2 consolidated groups...
+2025-12-09 18:58:54 - src.output_writer - INFO - Prepared 2 rows for output
+2025-12-09 18:58:54 - src.output_writer - INFO - Successfully wrote 2 records to C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-18\test_location_identifier_forma0\output.csv
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 1 complete: 1 records loaded
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 2 complete: 1 addresses processed
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - WARNING - No records to process. Exiting pipeline.
+2025-12-09 18:58:54 - src.pipeline - INFO - Successfully loaded 1 records (skipped 0 malformed rows)
+2025-12-09 18:58:54 - src.pipeline - ERROR - Error reading CSV file: CSV file is missing required columns: addr_text, pincode
+2025-12-09 18:58:54 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 0
+2025-12-09 18:58:54 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 1
+2025-12-09 18:58:54 - src.pipeline - ERROR - Error processing batch 1: API error
+2025-12-09 18:58:54 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 2
+2025-12-09 18:58:54 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 18:58:54 - src.pipeline - INFO - Successfully wrote 10 records to test_output.csv
+2025-12-09 18:58:54 - src.pipeline - ERROR - Error generating statistics: Stats error
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 1 complete: 1 records loaded
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 2 complete: 1 addresses processed
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 18:58:54 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 18:58:54 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 18:58:54 - src.pipeline - INFO - 
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:54 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 18:58:54 - src.pipeline - INFO - ======================================================================
+2025-12-09 18:58:55 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 18:58:55 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:00:29 - root - INFO - Logging to file: consolidation.log
+2025-12-09 19:00:29 - root - INFO - ======================================================================
+2025-12-09 19:00:29 - root - INFO - Address Consolidation System - Starting
+2025-12-09 19:00:29 - root - INFO - ======================================================================
+2025-12-09 19:00:29 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-19\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 19:00:29 - root - INFO - Input file: C:/Users/Kiran Pawar/AppData/Local/Temp/pytest-of-Kiran Pawar/pytest-19/test_main_keyboard_interrupt0/test.csv
+2025-12-09 19:00:29 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 19:00:29 - root - INFO - Log level: INFO
+2025-12-09 19:00:29 - root - WARNING - Operation cancelled by user
+2025-12-09 19:00:29 - src.consolidation_engine - INFO - No records to consolidate
+2025-12-09 19:00:29 - src.consolidation_engine - INFO - Starting consolidation of 1 records...
+2025-12-09 19:00:29 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:29 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Unmatched group contains 2 records
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (2 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.95, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Fuzzy matching merged 0 records into existing groups
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 3 groups (0 unmatched records)
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 19:00:30 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 19:00:30 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-19\test_read_valid_csv0\test.csv
+2025-12-09 19:00:30 - src.csv_reader - INFO - CSV loading complete. Loaded 2 records, skipped 0 malformed rows.
+2025-12-09 19:00:30 - src.csv_reader - WARNING - Skipping malformed row 3: addr_text is required but empty or missing. Row data: {'addr_hash_key': 'def456', 'addr_text': '', 'city_id': 'DEL', 'pincode': '110001', 'state_id': 'DL', 'zone_id': '2', 'address_id': 'addr2', 'assigned_pickup_dlvd_geo_points': 'POINT(3 4)', 'assigned_pickup_dlvd_geo_points_count': '2'}
+2025-12-09 19:00:30 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-19\test_raw_data_preserved0\test.csv
+2025-12-09 19:00:30 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 19:00:30 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-19\test_empty_pincode_raises_erro0\test.csv
+2025-12-09 19:00:30 - src.csv_reader - WARNING - Skipping malformed row 2: pincode is required but empty or missing. Row data: {'addr_hash_key': 'abc123', 'addr_text': '123 Main St', 'city_id': 'MUM', 'pincode': '', 'state_id': 'MH', 'zone_id': '1', 'address_id': 'addr1', 'assigned_pickup_dlvd_geo_points': 'POINT(1 2)', 'assigned_pickup_dlvd_geo_points_count': '1'}
+2025-12-09 19:00:30 - src.csv_reader - INFO - CSV loading complete. Loaded 0 records, skipped 1 malformed rows.
+2025-12-09 19:00:30 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-19\test_non_numeric_count_default0\test.csv
+2025-12-09 19:00:30 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 19:00:30 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-19\test_streaming_large_file0\large.csv
+2025-12-09 19:00:30 - src.llm_parser - WARNING - Empty address text provided
+2025-12-09 19:00:30 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:00:30 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 19:00:30 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:00:30 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:00:30 - src.llm_parser - WARNING - API request timeout (attempt 3/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - ERROR - API timeout after 3 retries for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - ERROR - API request error (attempt 1/3): API Error for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Successfully parsed address after 2 attempts
+2025-12-09 19:00:30 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:00:30 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 19:00:30 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:00:30 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 19:06:31 - root - INFO - Logging to file: consolidation.log
+2025-12-09 19:06:31 - root - INFO - ======================================================================
+2025-12-09 19:06:31 - root - INFO - Address Consolidation System - Starting
+2025-12-09 19:06:31 - root - INFO - ======================================================================
+2025-12-09 19:06:31 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-20\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 19:06:31 - root - INFO - Input file: C:/Users/Kiran Pawar/AppData/Local/Temp/pytest-of-Kiran Pawar/pytest-20/test_main_keyboard_interrupt0/test.csv
+2025-12-09 19:06:31 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 19:06:31 - root - INFO - Log level: INFO
+2025-12-09 19:06:31 - root - WARNING - Operation cancelled by user
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - No records to consolidate
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 1 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Unmatched group contains 2 records
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (2 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.95, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Fuzzy matching merged 0 records into existing groups
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 3 groups (0 unmatched records)
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 19:06:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 19:06:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-20\test_read_valid_csv0\test.csv
+2025-12-09 19:06:31 - src.csv_reader - INFO - CSV loading complete. Loaded 2 records, skipped 0 malformed rows.
+2025-12-09 19:06:31 - src.csv_reader - WARNING - Skipping malformed row 3: addr_text is required but empty or missing. Row data: {'addr_hash_key': 'def456', 'addr_text': '', 'city_id': 'DEL', 'pincode': '110001', 'state_id': 'DL', 'zone_id': '2', 'address_id': 'addr2', 'assigned_pickup_dlvd_geo_points': 'POINT(3 4)', 'assigned_pickup_dlvd_geo_points_count': '2'}
+2025-12-09 19:06:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-20\test_raw_data_preserved0\test.csv
+2025-12-09 19:06:31 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 19:06:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-20\test_empty_pincode_raises_erro0\test.csv
+2025-12-09 19:06:31 - src.csv_reader - WARNING - Skipping malformed row 2: pincode is required but empty or missing. Row data: {'addr_hash_key': 'abc123', 'addr_text': '123 Main St', 'city_id': 'MUM', 'pincode': '', 'state_id': 'MH', 'zone_id': '1', 'address_id': 'addr1', 'assigned_pickup_dlvd_geo_points': 'POINT(1 2)', 'assigned_pickup_dlvd_geo_points_count': '1'}
+2025-12-09 19:06:31 - src.csv_reader - INFO - CSV loading complete. Loaded 0 records, skipped 1 malformed rows.
+2025-12-09 19:06:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-20\test_non_numeric_count_default0\test.csv
+2025-12-09 19:06:31 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 19:06:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-20\test_streaming_large_file0\large.csv
+2025-12-09 19:06:31 - src.llm_parser - WARNING - Empty address text provided
+2025-12-09 19:06:31 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:06:31 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 19:06:31 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:06:31 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:06:31 - src.llm_parser - WARNING - API request timeout (attempt 3/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - ERROR - API timeout after 3 retries for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - ERROR - API request error (attempt 1/3): API Error for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Successfully parsed address after 2 attempts
+2025-12-09 19:06:31 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:06:31 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 19:06:31 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:06:31 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 19:11:30 - root - INFO - Logging to file: consolidation.log
+2025-12-09 19:11:30 - root - INFO - ======================================================================
+2025-12-09 19:11:30 - root - INFO - Address Consolidation System - Starting
+2025-12-09 19:11:30 - root - INFO - ======================================================================
+2025-12-09 19:11:30 - root - INFO - Configuration file: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-21\test_main_keyboard_interrupt0\config.yaml
+2025-12-09 19:11:30 - root - INFO - Input file: C:/Users/Kiran Pawar/AppData/Local/Temp/pytest-of-Kiran Pawar/pytest-21/test_main_keyboard_interrupt0/test.csv
+2025-12-09 19:11:30 - root - INFO - Output file: consolidated_addresses.csv
+2025-12-09 19:11:30 - root - INFO - Log level: INFO
+2025-12-09 19:11:30 - root - WARNING - Operation cancelled by user
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - No records to consolidate
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 1 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Unmatched group contains 2 records
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (2 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.95, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Fuzzy matching merged 0 records into existing groups
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 3 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=False, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Unmatched group contains 1 records
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (1 unmatched records)
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-21\test_read_valid_csv0\test.csv
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 2 records, skipped 0 malformed rows.
+2025-12-09 19:11:31 - src.csv_reader - WARNING - Skipping malformed row 3: addr_text is required but empty or missing. Row data: {'addr_hash_key': 'def456', 'addr_text': '', 'city_id': 'DEL', 'pincode': '110001', 'state_id': 'DL', 'zone_id': '2', 'address_id': 'addr2', 'assigned_pickup_dlvd_geo_points': 'POINT(3 4)', 'assigned_pickup_dlvd_geo_points_count': '2'}
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-21\test_raw_data_preserved0\test.csv
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-21\test_empty_pincode_raises_erro0\test.csv
+2025-12-09 19:11:31 - src.csv_reader - WARNING - Skipping malformed row 2: pincode is required but empty or missing. Row data: {'addr_hash_key': 'abc123', 'addr_text': '123 Main St', 'city_id': 'MUM', 'pincode': '', 'state_id': 'MH', 'zone_id': '1', 'address_id': 'addr1', 'assigned_pickup_dlvd_geo_points': 'POINT(1 2)', 'assigned_pickup_dlvd_geo_points_count': '1'}
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 0 records, skipped 1 malformed rows.
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-21\test_non_numeric_count_default0\test.csv
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 1 records, skipped 0 malformed rows.
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\Kiran Pawar\AppData\Local\Temp\pytest-of-Kiran Pawar\pytest-21\test_streaming_large_file0\large.csv
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmpjlslq_lf\test_input.csv
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:31 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:31 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 19:11:31 - src.pipeline - INFO - Parsing complete. Success: 3, Failed: 0
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Fuzzy matching merged 2 records into existing groups
+2025-12-09 19:11:31 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmpjlslq_lf\test_output.csv
+2025-12-09 19:11:31 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:31 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:31 - src.output_writer - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmpjlslq_lf\test_output.csv
+2025-12-09 19:11:31 - src.pipeline - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmpjlslq_lf\test_output.csv
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:31 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmprgs2w1cd\test_input.csv
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:31 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:31 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 19:11:31 - src.pipeline - INFO - Parsing complete. Success: 3, Failed: 0
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:11:31 - src.pipeline - INFO - Created 2 consolidated groups
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 3 complete: 2 groups created
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmprgs2w1cd\test_output.csv
+2025-12-09 19:11:31 - src.output_writer - INFO - Writing 2 consolidated groups...
+2025-12-09 19:11:31 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:31 - src.output_writer - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmprgs2w1cd\test_output.csv
+2025-12-09 19:11:31 - src.pipeline - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmprgs2w1cd\test_output.csv
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:31 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.pipeline - ERROR - Error reading CSV file: CSV file is missing required columns: pincode, city_id
+2025-12-09 19:11:31 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - ERROR - Pipeline failed with error
+2025-12-09 19:11:31 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - ERROR - Error: CSV file is missing required columns: pincode, city_id
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 92, in run
+    address_records = self._read_csv()
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 155, in _read_csv
+    raise ValueError(
+ValueError: CSV file is missing required columns: pincode, city_id
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmp_o88_ri1\test_input.csv
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:31 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:31 - src.llm_parser - ERROR - Unexpected error parsing address: API timeout
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+Exception: API timeout
+2025-12-09 19:11:31 - src.llm_parser - ERROR - Unexpected error parsing address: API timeout
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+Exception: API timeout
+2025-12-09 19:11:31 - src.llm_parser - ERROR - Unexpected error parsing address: API timeout
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+Exception: API timeout
+2025-12-09 19:11:31 - src.llm_parser - INFO - Batch parsing complete. Success: 0/3, Failed: 3/3
+2025-12-09 19:11:31 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 3
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Unmatched group contains 3 records
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (3 unmatched records)
+2025-12-09 19:11:31 - src.consolidation_engine - INFO - Fuzzy matching merged 0 records into existing groups
+2025-12-09 19:11:31 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmp_o88_ri1\test_output.csv
+2025-12-09 19:11:31 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:31 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:31 - src.output_writer - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp_o88_ri1\test_output.csv
+2025-12-09 19:11:31 - src.pipeline - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp_o88_ri1\test_output.csv
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:31 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:31 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmp3chqmaay\test_input.csv
+2025-12-09 19:11:31 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:31 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:31 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:31 - src.pipeline - INFO - 
+2025-12-09 19:11:31 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:31 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:31 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:31 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0) for address: Flat 101, Sunrise Apartments, Near City Mall, MG R...
+2025-12-09 19:11:31 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:11:31 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0) for address: Flat 202, Sunrise Apartments, MG Road, Andheri Wes...
+2025-12-09 19:11:31 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:11:31 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0) for address: B-304, Green Valley Society, Linking Road, Bandra ...
+2025-12-09 19:11:31 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:11:32 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0) for address: Flat 202, Sunrise Apartments, MG Road, Andheri Wes...
+2025-12-09 19:11:32 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0) for address: Flat 101, Sunrise Apartments, Near City Mall, MG R...
+2025-12-09 19:11:32 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0) for address: B-304, Green Valley Society, Linking Road, Bandra ...
+2025-12-09 19:11:32 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:11:32 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:11:32 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON response (attempt 3/3): Expecting value: line 1 column 1 (char 0) for address: Flat 202, Sunrise Apartments, MG Road, Andheri Wes...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON after 3 retries for address: Flat 202, Sunrise Apartments, MG Road, Andheri Wes...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON response (attempt 3/3): Expecting value: line 1 column 1 (char 0) for address: Flat 101, Sunrise Apartments, Near City Mall, MG R...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON after 3 retries for address: Flat 101, Sunrise Apartments, Near City Mall, MG R...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON response (attempt 3/3): Expecting value: line 1 column 1 (char 0) for address: B-304, Green Valley Society, Linking Road, Bandra ...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON after 3 retries for address: B-304, Green Valley Society, Linking Road, Bandra ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 0/3, Failed: 3/3
+2025-12-09 19:11:34 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 3
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Unmatched group contains 3 records
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (3 unmatched records)
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Fuzzy matching merged 0 records into existing groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmp3chqmaay\test_output.csv
+2025-12-09 19:11:34 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:34 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:34 - src.output_writer - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp3chqmaay\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp3chqmaay\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmp7itxp7kc\test_input.csv
+2025-12-09 19:11:34 - src.csv_reader - INFO - CSV loading complete. Loaded 2 records, skipped 0 malformed rows.
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully loaded 2 records (skipped 0 malformed rows)
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 1 complete: 2 records loaded
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 2 addresses...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 2/2, Failed: 0/2
+2025-12-09 19:11:34 - src.pipeline - INFO - Parsing complete. Success: 2, Failed: 0
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 2 complete: 2 addresses processed
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Starting consolidation of 2 records...
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmp7itxp7kc\test_output.csv
+2025-12-09 19:11:34 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:34 - src.output_writer - INFO - Prepared 2 rows for output
+2025-12-09 19:11:34 - src.output_writer - INFO - Successfully wrote 2 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp7itxp7kc\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully wrote 2 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp7itxp7kc\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmpkqh_wcfd\test_input.csv
+2025-12-09 19:11:34 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 19:11:34 - src.pipeline - INFO - Parsing complete. Success: 3, Failed: 0
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Fuzzy matching merged 2 records into existing groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmpkqh_wcfd\test_output.csv
+2025-12-09 19:11:34 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:34 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:34 - src.output_writer - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmpkqh_wcfd\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmpkqh_wcfd\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmpg0hj2gqb\test_input.csv
+2025-12-09 19:11:34 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Unexpected error parsing address: Parse error
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+Exception: Parse error
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Unexpected error parsing address: Parse error
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+Exception: Parse error
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Unexpected error parsing address: Parse error
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 153, in parse_address
+    response_data = self._make_api_request(prompt)
+  File "D:\Development\xb\apps\geo-society\src\llm_parser.py", line 346, in _make_api_request
+    response = requests.post(
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+Exception: Parse error
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 0/3, Failed: 3/3
+2025-12-09 19:11:34 - src.pipeline - INFO - Parsing complete. Success: 0, Failed: 3
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Unmatched group contains 3 records
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (3 unmatched records)
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Fuzzy matching merged 0 records into existing groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmpg0hj2gqb\test_output.csv
+2025-12-09 19:11:34 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:34 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:34 - src.output_writer - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmpg0hj2gqb\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmpg0hj2gqb\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmp_ymvkv0r\test_input.csv
+2025-12-09 19:11:34 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 19:11:34 - src.pipeline - INFO - Parsing complete. Success: 3, Failed: 0
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation complete. Created 2 groups (0 unmatched records)
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Fuzzy matching merged 1 records into existing groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Created 2 consolidated groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 3 complete: 2 groups created
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmp_ymvkv0r\test_output.csv
+2025-12-09 19:11:34 - src.output_writer - INFO - Writing 2 consolidated groups...
+2025-12-09 19:11:34 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:34 - src.output_writer - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp_ymvkv0r\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully wrote 3 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp_ymvkv0r\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.pipeline - ERROR - Error reading CSV file: CSV file not found: C:\Users\KIRANP~1\AppData\Local\Temp\tmplx0w28qa\nonexistent.csv
+2025-12-09 19:11:34 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - ERROR - Pipeline failed with error
+2025-12-09 19:11:34 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - ERROR - Error: CSV file not found: C:\Users\KIRANP~1\AppData\Local\Temp\tmplx0w28qa\nonexistent.csv
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 92, in run
+    address_records = self._read_csv()
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 153, in _read_csv
+    is_valid, missing_columns = self.csv_reader.validate_columns()
+  File "D:\Development\xb\apps\geo-society\src\csv_reader.py", line 43, in validate_columns
+    raise FileNotFoundError(f"CSV file not found: {self.file_path}")
+FileNotFoundError: CSV file not found: C:\Users\KIRANP~1\AppData\Local\Temp\tmplx0w28qa\nonexistent.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmpcvg2xkkk\test_input.csv
+2025-12-09 19:11:34 - src.csv_reader - INFO - CSV loading complete. Loaded 3 records, skipped 0 malformed rows.
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully loaded 3 records (skipped 0 malformed rows)
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 1 complete: 3 records loaded
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
+2025-12-09 19:11:34 - src.pipeline - INFO - Parsing complete. Success: 3, Failed: 0
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 2 complete: 3 addresses processed
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Starting consolidation of 3 records...
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Fuzzy matching merged 2 records into existing groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmpcvg2xkkk\test_output.csv
+2025-12-09 19:11:34 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:34 - src.output_writer - INFO - Prepared 3 rows for output
+2025-12-09 19:11:34 - src.output_writer - ERROR - Permission denied writing to file: C:\Users\KIRANP~1\AppData\Local\Temp\tmpcvg2xkkk\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - ERROR - Error writing output: Cannot write to file: C:\Users\KIRANP~1\AppData\Local\Temp\tmpcvg2xkkk\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - ERROR - Pipeline failed with error
+2025-12-09 19:11:34 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - ERROR - Error: Cannot write to file: C:\Users\KIRANP~1\AppData\Local\Temp\tmpcvg2xkkk\test_output.csv
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\output_writer.py", line 94, in write
+    with open(self.output_path, 'w', newline='', encoding='utf-8') as csvfile:
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1092, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1096, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\Users\Kiran Pawar\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1151, in _execute_mock_call
+    raise effect
+PermissionError: Permission denied
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 118, in run
+    self._write_output(consolidated_groups)
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 297, in _write_output
+    records_written = self.output_writer.write(consolidated_groups)
+  File "D:\Development\xb\apps\geo-society\src\output_writer.py", line 104, in write
+    raise PermissionError(f"Cannot write to file: {self.output_path}") from e
+PermissionError: Cannot write to file: C:\Users\KIRANP~1\AppData\Local\Temp\tmpcvg2xkkk\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.pipeline - ERROR - Error reading CSV file: CSV file is empty: C:\Users\KIRANP~1\AppData\Local\Temp\tmp4cuk2ip7\empty.csv
+2025-12-09 19:11:34 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - ERROR - Pipeline failed with error
+2025-12-09 19:11:34 - src.pipeline - ERROR - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - ERROR - Error: CSV file is empty: C:\Users\KIRANP~1\AppData\Local\Temp\tmp4cuk2ip7\empty.csv
+Traceback (most recent call last):
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 92, in run
+    address_records = self._read_csv()
+  File "D:\Development\xb\apps\geo-society\src\pipeline.py", line 153, in _read_csv
+    is_valid, missing_columns = self.csv_reader.validate_columns()
+  File "D:\Development\xb\apps\geo-society\src\csv_reader.py", line 47, in validate_columns
+    raise ValueError(f"CSV file is empty: {self.file_path}")
+ValueError: CSV file is empty: C:\Users\KIRANP~1\AppData\Local\Temp\tmp4cuk2ip7\empty.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Starting Address Consolidation Pipeline
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 1: Reading CSV file
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.csv_reader - INFO - Starting CSV read from: C:\Users\KIRANP~1\AppData\Local\Temp\tmp7sny463e\test_input.csv
+2025-12-09 19:11:34 - src.csv_reader - INFO - CSV loading complete. Loaded 15 records, skipped 0 malformed rows.
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully loaded 15 records (skipped 0 malformed rows)
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 1 complete: 15 records loaded
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 2: Parsing addresses with LLM
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 10 addresses...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 10/10, Failed: 0/10
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 5 addresses...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 5/5, Failed: 0/5
+2025-12-09 19:11:34 - src.pipeline - INFO - Parsing complete. Success: 15, Failed: 0
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 2 complete: 15 addresses processed
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 3: Consolidating addresses
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Starting consolidation of 15 records...
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation settings: fuzzy_matching=True, similarity_threshold=0.85, normalize_society_names=True
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Consolidation complete. Created 1 groups (0 unmatched records)
+2025-12-09 19:11:34 - src.consolidation_engine - INFO - Fuzzy matching merged 14 records into existing groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Created 1 consolidated groups
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 3 complete: 1 groups created
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 4: Writing output CSV
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.output_writer - INFO - Starting output write to: C:\Users\KIRANP~1\AppData\Local\Temp\tmp7sny463e\test_output.csv
+2025-12-09 19:11:34 - src.output_writer - INFO - Writing 1 consolidated groups...
+2025-12-09 19:11:34 - src.output_writer - INFO - Prepared 15 rows for output
+2025-12-09 19:11:34 - src.output_writer - INFO - Successfully wrote 15 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp7sny463e\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Successfully wrote 15 records to C:\Users\KIRANP~1\AppData\Local\Temp\tmp7sny463e\test_output.csv
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 4 complete: Output file written
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - STAGE 5: Generating statistics
+2025-12-09 19:11:34 - src.pipeline - INFO - ----------------------------------------------------------------------
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Generating consolidation statistics...
+2025-12-09 19:11:34 - src.statistics_reporter - INFO - Statistics generation complete
+2025-12-09 19:11:34 - src.pipeline - INFO - Stage 5 complete: Statistics generated
+2025-12-09 19:11:34 - src.pipeline - INFO - 
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.pipeline - INFO - Pipeline completed successfully!
+2025-12-09 19:11:34 - src.pipeline - INFO - ======================================================================
+2025-12-09 19:11:34 - src.llm_parser - WARNING - Empty address text provided
+2025-12-09 19:11:34 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:11:34 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 19:11:34 - src.llm_parser - WARNING - API request timeout (attempt 1/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:11:34 - src.llm_parser - WARNING - API request timeout (attempt 2/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:11:34 - src.llm_parser - WARNING - API request timeout (attempt 3/3) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - API timeout after 3 retries for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - API request error (attempt 1/3): API Error for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Successfully parsed address after 2 attempts
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON response (attempt 1/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Retrying in 1 seconds...
+2025-12-09 19:11:34 - src.llm_parser - ERROR - Invalid JSON response (attempt 2/3): Expecting value: line 1 column 1 (char 0) for address: Flat 301, Prestige Shantiniketan, Whitefield Main ...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Retrying in 2 seconds...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Successfully parsed address after 3 attempts
+2025-12-09 19:11:34 - src.llm_parser - INFO - Starting batch parsing of 3 addresses...
+2025-12-09 19:11:34 - src.llm_parser - INFO - Batch parsing complete. Success: 3/3, Failed: 0/3
